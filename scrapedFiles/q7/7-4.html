@@ -1,0 +1,3881 @@
+<!DOCTYPE HTML ><!-- webapps\assessment\web\review\review.jsp -->
+
+
+<html  lang="en-US">
+ <head>
+  <title>Review Test Submission: Quiz #7 &ndash; EMS-1053-152_FAL_2018</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta id="request-method" name="request-method" content="GET">
+  <meta name="author" content="Blackboard">
+  <meta name="copyright" content="&copy; 1997-2018 Blackboard Inc. All Rights Reserved. U.S. Patent No. 7,493,396 and 7,558,853. Additional Patents Pending.">
+  <meta name="keywords" content="Blackboard">
+  <meta http-equiv="Pragma" content="no-cache">
+  <meta http-equiv="Expires" content="-1">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+  
+<script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(e,n,t){function r(t){if(!n[t]){var o=n[t]={exports:{}};e[t][0].call(o.exports,function(n){var o=e[t][1][n];return r(o||n)},o,o.exports)}return n[t].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<t.length;o++)r(t[o]);return r}({1:[function(e,n,t){function r(){}function o(e,n,t){return function(){return i(e,[c.now()].concat(u(arguments)),n?null:this,t),n?void 0:this}}var i=e("handle"),a=e(3),u=e(4),f=e("ee").get("tracer"),c=e("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var p=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],d="api-",l=d+"ixn-";a(p,function(e,n){s[n]=o(d+n,!0,"api")}),s.addPageAction=o(d+"addPageAction",!0),s.setCurrentRouteName=o(d+"routeName",!0),n.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(e,n){var t={},r=this,o="function"==typeof n;return i(l+"tracer",[c.now(),e,t],r),function(){if(f.emit((o?"":"no-")+"fn-start",[c.now(),r,o],t),o)try{return n.apply(this,arguments)}catch(e){throw f.emit("fn-err",[arguments,this,e],t),e}finally{f.emit("fn-end",[c.now()],t)}}}};a("actionText,setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,n){m[n]=o(l+n)}),newrelic.noticeError=function(e){"string"==typeof e&&(e=new Error(e)),i("err",[e,c.now()])}},{}],2:[function(e,n,t){function r(e,n){if(!o)return!1;if(e!==o)return!1;if(!n)return!0;if(!i)return!1;for(var t=i.split("."),r=n.split("."),a=0;a<r.length;a++)if(r[a]!==t[a])return!1;return!0}var o=null,i=null,a=/Version\/(\S+)\s+Safari/;if(navigator.userAgent){var u=navigator.userAgent,f=u.match(a);f&&u.indexOf("Chrome")===-1&&u.indexOf("Chromium")===-1&&(o="Safari",i=f[1])}n.exports={agent:o,version:i,match:r}},{}],3:[function(e,n,t){function r(e,n){var t=[],r="",i=0;for(r in e)o.call(e,r)&&(t[i]=n(r,e[r]),i+=1);return t}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],4:[function(e,n,t){function r(e,n,t){n||(n=0),"undefined"==typeof t&&(t=e?e.length:0);for(var r=-1,o=t-n||0,i=Array(o<0?0:o);++r<o;)i[r]=e[n+r];return i}n.exports=r},{}],5:[function(e,n,t){n.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(e,n,t){function r(){}function o(e){function n(e){return e&&e instanceof r?e:e?f(e,u,i):i()}function t(t,r,o,i){if(!d.aborted||i){e&&e(t,r,o);for(var a=n(o),u=v(t),f=u.length,c=0;c<f;c++)u[c].apply(a,r);var p=s[y[t]];return p&&p.push([b,t,r,a]),a}}function l(e,n){h[e]=v(e).concat(n)}function m(e,n){var t=h[e];if(t)for(var r=0;r<t.length;r++)t[r]===n&&t.splice(r,1)}function v(e){return h[e]||[]}function g(e){return p[e]=p[e]||o(t)}function w(e,n){c(e,function(e,t){n=n||"feature",y[t]=n,n in s||(s[n]=[])})}var h={},y={},b={on:l,addEventListener:l,removeEventListener:m,emit:t,get:g,listeners:v,context:n,buffer:w,abort:a,aborted:!1};return b}function i(){return new r}function a(){(s.api||s.feature)&&(d.aborted=!0,s=d.backlog={})}var u="nr@context",f=e("gos"),c=e(3),s={},p={},d=n.exports=o();d.backlog=s},{}],gos:[function(e,n,t){function r(e,n,t){if(o.call(e,n))return e[n];var r=t();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,n,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return e[n]=r,r}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],handle:[function(e,n,t){function r(e,n,t,r){o.buffer([e],r),o.emit(e,n,t)}var o=e("ee").get("handle");n.exports=r,r.ee=o},{}],id:[function(e,n,t){function r(e){var n=typeof e;return!e||"object"!==n&&"function"!==n?-1:e===window?0:a(e,i,function(){return o++})}var o=1,i="nr@id",a=e("gos");n.exports=r},{}],loader:[function(e,n,t){function r(){if(!E++){var e=x.info=NREUM.info,n=l.getElementsByTagName("script")[0];if(setTimeout(s.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&n))return s.abort();c(y,function(n,t){e[n]||(e[n]=t)}),f("mark",["onload",a()+x.offset],null,"api");var t=l.createElement("script");t.src="https://"+e.agent,n.parentNode.insertBefore(t,n)}}function o(){"complete"===l.readyState&&i()}function i(){f("mark",["domContent",a()+x.offset],null,"api")}function a(){return O.exists&&performance.now?Math.round(performance.now()):(u=Math.max((new Date).getTime(),u))-x.offset}var u=(new Date).getTime(),f=e("handle"),c=e(3),s=e("ee"),p=e(2),d=window,l=d.document,m="addEventListener",v="attachEvent",g=d.XMLHttpRequest,w=g&&g.prototype;NREUM.o={ST:setTimeout,SI:d.setImmediate,CT:clearTimeout,XHR:g,REQ:d.Request,EV:d.Event,PR:d.Promise,MO:d.MutationObserver};var h=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1099.min.js"},b=g&&w&&w[m]&&!/CriOS/.test(navigator.userAgent),x=n.exports={offset:u,now:a,origin:h,features:{},xhrWrappable:b,userAgent:p};e(1),l[m]?(l[m]("DOMContentLoaded",i,!1),d[m]("load",r,!1)):(l[v]("onreadystatechange",o),d[v]("onload",r)),f("mark",["firstbyte",u],null,"api");var E=0,O=e(5)},{}]},{},["loader"]);</script>
+  <link rel="SHORTCUT ICON" type="image/x-icon" href="/ui/bb-icon2.ico">
+     <link rel="stylesheet" type="text/css" href="/common/shared.css?v=3200.0.5-rel.6+3dd6b56" id="css_0">
+     <link rel="stylesheet" type="text/css" href="/themes/as_2012/theme.css?v=3200.0.5-rel.6+3dd6b56" id="css_1">
+     <link rel="stylesheet" type="text/css" href="/themes/as_2012/app_nav.css?v=3200.0.5-rel.6+3dd6b56" id="css_2">
+     <link rel="stylesheet" type="text/css" href="/branding/_1_1/brand.css?ts=1513246020000&v=3200.0.5-rel.6+3dd6b56" id="css_3">
+     <link rel="stylesheet" type="text/css" href="/coursethemes/medicine/coursetheme.css?v=3200.0.5-rel.6+3dd6b56" id="css_coursetheme">
+     <link rel="stylesheet" type="text/css" href="/webapps/assessment/css/assessment.css?v=3200.0.5-rel.6+3dd6b56_3200.0.5-rel.8+3dd6b56" id="css_4">
+     <link rel="stylesheet" type="text/css" href="/webapps/assessment/css/as_2012/assessment.css?v=3200.0.5-rel.6+3dd6b56_3200.0.5-rel.8+3dd6b56" id="css_5">
+     <link rel="stylesheet" type="text/css" href="/webapps/gradebook/css/grading.css?v=3200.0.5-rel.6+3dd6b56_3200.0.5-rel.8+3dd6b56" id="css_6">
+     <link rel="stylesheet" type="text/css" href="/webapps/gradebook/css/as_2012/grading.css?v=3200.0.5-rel.6+3dd6b56_3200.0.5-rel.8+3dd6b56" id="css_7">
+          
+      <style type="text/css">.topGlobalLinks a.home{background-image:url(/images/console/icons/home_0.gif)}.bottom-buttons-home a{background-image:url(/images/console/icons/home_0.gif);background-repeat:no-repeat;background-position:50% 0}.topGlobalLinks a.help{background-image:url(/images/console/icons/help_0.gif)}.bottom-buttons-help a{background-image:url(/images/console/icons/help_0.gif);background-repeat:no-repeat;background-position:50% 0}.topGlobalLinks a.logout{background-image:url(/images/console/icons/logout_0.gif)}.global-nav-bar .logout-link,.global-nav-bar .logout-link:hover,.global-nav-bar .logout-link:focus{background-image:url(/images/console/icons/logout_0.gif);background-repeat:no-repeat;background-position:50% 0}</style>
+       <link rel="stylesheet" type="text/css" media="print" href="/ui/styles/print.css?v=3200.0.5-rel.6+3dd6b56">
+    <script type="text/javascript" src="/javascript/i18n.js?v=3200.0.5-rel.6+3dd6b56"></script>
+      <script language='javascript' type='text/javascript'>
+
+var JS_RESOURCES = new Object();
+
+function _init_bundle_JS_RESOURCES() {
+
+    JS_RESOURCES['validation.email'] = 'A fully qualified email address (for example, info@blackboard.com) must be entered.';
+    JS_RESOURCES['validation.radio.required'] = 'Make a selection to continue.';
+    JS_RESOURCES['assessment.incomplete.confirm.backtrackProhibited.survey'] = 'The following questions may be incomplete:\n {0}\nClick cancel to return to the survey. Click Ok to save the incomplete answer.';
+    JS_RESOURCES['common.list.separator.comma'] = '{0}, {1}';
+    JS_RESOURCES['active.filter.search.terms'] = 'Search Terms';
+    JS_RESOURCES['validation.maximum_length.plural'] = 'Must not contain more than {1} characters: {0}.\nReduce the size of the input by {2} characters.';
+    JS_RESOURCES['assessment.incomplete.confirm.backtrackProhibited'] = 'The following questions may be incomplete:\n {0}\nClick cancel to return to the test. Click Ok to save the incomplete answer.';
+    JS_RESOURCES['validation.multiSelect.minItems'] = 'Multiselect box should contain at least {0} number of items.';
+    JS_RESOURCES['validation.cmp_field.required'] = 'A value must be provided for {0}\nwhen {1} field is not empty';
+    JS_RESOURCES['warning.email'] = 'Email address is a recommended field. Users will be unable to use parts of the system without an email address.';
+    JS_RESOURCES['validation.maximum_length.no_name.singular'] = 'Must not contain more than {0} characters.\nReduce the size of the input by one character.';
+    JS_RESOURCES['validation.multiSelect.maxItems'] = 'Multiselect box should not contain more than {0} number of items.';
+    JS_RESOURCES['validation.number'] = 'A valid numeric value must be entered: {0}.';
+    JS_RESOURCES['portalmodule.section.remove'] = 'Delete: {0}?';
+    JS_RESOURCES['show.helptext'] = 'Show Help Text';
+    JS_RESOURCES['validation.date.required'] = 'A complete date value must be provided: {0}.';
+    JS_RESOURCES['validation.password'] = 'Password cannot be empty or contain only spaces.';
+    JS_RESOURCES['validation.mismatch'] = 'The values entered do not match: {0}.\nConfirm: {0}.';
+    JS_RESOURCES['validation.percent'] = 'A valid percent value between 0 and 100 must be entered.';
+    JS_RESOURCES['validation.maximum_length.no_name.plural'] = 'Must not contain more than {0} characters.\nReduce the size of the input by {1} characters.';
+    JS_RESOURCES['field_name.substitute'] = '\'\'{0}\'\' input field';
+    JS_RESOURCES['validation.invalid_value'] = 'Invalid numeric value provided: {0}.';
+    JS_RESOURCES['validation.required'] = 'A value must be provided: {0}.';
+    JS_RESOURCES['validate.alignment.missing.content'] = 'You selected alignments but did not select any alignable content to copy.';
+    JS_RESOURCES['active.filter.free.form.text.blank'] = 'Specify a value for the search text field';
+    JS_RESOURCES['validation.system_role.reserve'] = '"bb" is not permitted at the beginning of a role ID.';
+    JS_RESOURCES['validation.date_past'] = 'The end date cannot be earlier than the start date.';
+    JS_RESOURCES['confirm.delete_item_value'] = 'This item {0} will be deleted. Continue?';
+    JS_RESOURCES['validation.invalid_chars'] = 'Contains illegal characters: {0}.\nDelete these characters: {1}';
+    JS_RESOURCES['hide.helptext'] = 'Hide Help Text';
+    JS_RESOURCES['validate.range.lessthen.str'] = 'Less Than {0}';
+    JS_RESOURCES['validate.login.invalid.username.or.pass'] = 'Enter a username and password.';
+    JS_RESOURCES['validation.date_past.confirm'] = 'The time is in the past.\nContinue with this time?';
+    JS_RESOURCES['validation.negative'] = 'A valid non-negative value must be entered: {0}.';
+    JS_RESOURCES['validation.url'] = 'A valid URL (for example, http://www.myschool.edu) must be entered.';
+    JS_RESOURCES['validate.range.overlap'] = 'criteria ({0}) overlaps criteria ({1}).';
+    JS_RESOURCES['validate.range.between.str'] = 'Between {0} and {1}';
+    JS_RESOURCES['validation.portal.tool.items.remove'] = 'Delete: {0}?';
+    JS_RESOURCES['validation.association.refresh.confirm'] = 'The associated items information might have been updated.\nClick \'OK\' to refresh the list or click \'Cancel\' to keep the current page.';
+    JS_RESOURCES['validate.enrolloptions.error.codeconflict'] = 'The Access Code Enrollment option conflicts with the selection of {instructor} Led enrollment.';
+    JS_RESOURCES['list.checkToSelectAllItems'] = 'Check to select all items';
+    JS_RESOURCES['validation.option.required'] = 'At least one option must be selected from the list.';
+    JS_RESOURCES['active.filter.changed.alert'] = 'criteria now contains';
+    JS_RESOURCES['vtbe.artifact.footer.validate.nameIfSaveArtifact'] = 'Specify a Name in order to Save as a Reusable Object.';
+    JS_RESOURCES['validate.invalidate.number'] = 'Please input valid number instead of {0}.';
+    JS_RESOURCES['validation.valid_course_id'] = 'Course id contains illegal characters or multibyte characters.';
+    JS_RESOURCES['assessment.incomplete.confirm'] = 'The following questions may be incomplete:\n {0}\nClick cancel to return to the test. Click Ok to submit assessment.';
+    JS_RESOURCES['validate.enrolloptions.error.nooption'] = 'Warning: Choose either the {instructor} Led or the Self-Enrollment option.';
+    JS_RESOURCES['validation.date_equal'] = 'The start date cannot be equal to the end date.';
+    JS_RESOURCES['validation.cmp_field.rejected'] = 'The {0} cannot be used without a corresponding {1} value.';
+    JS_RESOURCES['validation.time.required'] = 'A complete time value must be provided: {0}.';
+    JS_RESOURCES['validation.integer_number'] = 'A valid integer numeric value must be entered: {0}.';
+    JS_RESOURCES['validation.maximum_length'] = 'Must not contain more than 255 characters';
+    JS_RESOURCES['validate.enrolloptions.error.emailrequestconflict'] = 'The selected email enrollment option conflicts with the self-enrollment selection.';
+    JS_RESOURCES['validate.range.morethen.str'] = 'More Than {0}';
+    JS_RESOURCES['invalid_char.space'] = 'space';
+    JS_RESOURCES['notification.submit'] = 'Action already submitted.\nWait until the action is complete.';
+    JS_RESOURCES['validation.plain_text.confirm'] = 'To display equations correctly in this document, Smart Text or HTML format must be selected.\nClick \'OK\' to save in selected Plain Text format or click \'Cancel\' to select a new format.';
+    JS_RESOURCES['validation.allow_negtive.percent'] = 'A valid percent value between -100 and 100 must be entered.';
+    JS_RESOURCES['invalid_char.comma'] = 'comma';
+    JS_RESOURCES['confirm.remove_item'] = 'This action is final and cannot be undone. Continue?';
+    JS_RESOURCES['list.uncheckToDeselectAllItems'] = 'Uncheck to deselect all items';
+    JS_RESOURCES['validation.maximum_length.singular'] = 'Must not contain more than {1} characters: {0}.\nReduce the size of the input by one character.';
+    JS_RESOURCES['vtbe.artifact.footer.validate.saveLocationIfSaveArtifact'] = 'Specify a location for the Reusable Object.';
+    JS_RESOURCES['validation.minimum_length'] = 'A minimum of {0} characters must be entered: {1}.';
+    JS_RESOURCES['assessment.incomplete.confirm.survey'] = 'The following questions may be incomplete:\n {0}\nClick cancel to return to the survey. Click Ok to submit assessment.';
+    JS_RESOURCES['validation.image_type'] = 'Unknown image type: {0}. Image may not display correctly.';
+    JS_RESOURCES['validate.invalidate.number.space'] = 'Space';
+
+    JS_RESOURCES.getString = i18n_get_string;
+    JS_RESOURCES.getFormattedString = i18n_get_formatted_string;
+
+}
+
+_init_bundle_JS_RESOURCES();
+
+</script>
+<script language='javascript' type='text/javascript'>
+
+var LOCALE_SETTINGS = new Object();
+
+function _init_bundle_LOCALE_SETTINGS() {
+
+    LOCALE_SETTINGS['LOCALE_SETTINGS.ADDRESS_FIELD_ORDER'] = 'STREET_1 STREET_2 CITY STATE ZIP_CODE COUNTRY';
+    LOCALE_SETTINGS['number_format.exponent'] = 'eE';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.YEAR_CHARACTER.03255'] = '';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.NAME.COLUMN.2'] = '{1}';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.CALENDAR_COLUMN_FORMAT_MONTH.03255'] = 'ddd';
+    LOCALE_SETTINGS['BBI18N.SOLARIS_CHARSET'] = 'ISO8859-1';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.NAME.COLUMN.1'] = '{0}';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.internal_date_format'] = 'MM/dd/yy';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.CALENDAR_TITLE_FORMAT_MONTH.03259'] = 'MMMM yyyy';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.TIME_ORDER.00519'] = 'HMP';
+    LOCALE_SETTINGS['float.format'] = '^(([0-9]{1,3}(\\,[0-9]{3})*)|[0-9]*)(\\.[0-9]+)?$';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.NAME.SORT_COLUMN'] = 'familyName';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.SHORT'] = '{1} {3}';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.DAY_SHORT.02097'] = 'SUN MON TUE WED THU FRI SAT';
+    LOCALE_SETTINGS['float.allow.negative.format'] = '^((([-]?[0-9]{1,3}(\\,[0-9]{3})*)|[-]?[0-9]*)(\\.[0-9]+)?|\\.[0-9]+)?$';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.CALENDAR_TYPE'] = 'GREGORIAN';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.GIVEN_INITIAL_FAMILY_NAME'] = '{4} {3}';
+    LOCALE_SETTINGS['efloat.format'] = '^[+-]?[0-9]*(\\.[0-9]+)?([eE][+-]?[0-9]+)?$';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.CALENDAR_TITLE_FORMAT_WEEK.03260'] = 'MMM d[ yyyy]{ \'&#8212;\'[ MMM] d yyyy}';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.MONTH_FULL.02100'] = 'January February March April May June July August September October November December';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.NUMBERS_HIJRI_LOCALIZED.00521'] = 'NO';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.LONG'] = '{0} {1} {2} {3}';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.MONTH_FULL_HIJRI.02100'] = 'Muḥarram,Ṣafar,Rabīʿ\'al-Awwal,Rabīʿ\'ath-Thānī,Jumādā\'al-Ūlā,Jumādā\'ath-Thāniya,Rajab,Shaʿbān,Ramaḍān,Shawwāl,Dhū\'al-Qaʿda,Dhū\'al-Ḥijja';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.REPORT_FONT_NAME.03169'] = 'ARIAL.TTF';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.WORK_FIELD_ORDER'] = 'JOB_TITLE DEPARTMENT COMPANY B_PHONE_1 B_PHONE_2 B_FAX';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.GREETING'] = 'Welcome, {1}';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.MONTH_SHORT.00520'] = 'Jan Feb  Mar Apr  May Jun Jul Aug Sep Oct Nov Dec';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.REPORT_FONT_SIZE.03168'] = '8';
+    LOCALE_SETTINGS['number_format.thousands_sep'] = ',';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.CALENDAR_COLUMN_FORMAT_WEEK.03256'] = 'ddd M/d';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.SHORT_SURNAME'] = '{3}, {1}';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.AM_PM.00522'] = 'AM PM';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.DATE_ORDER.00519'] = 'MDY';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.PHONE_FIELD_ORDER'] = 'H_PHONE_1 H_PHONE_2 H_FAX M_PHONE';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.DAY_MIN.02099'] = 'Su Mo Tu We Th Fr Sa';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.24HR_SUPPORT.03208'] = '0';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.REPORT_FONT_PATH.03170'] = 'C:/WINNT/Fonts';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.FIRST_DAY_OF_WEEK.03207'] = '0';
+    LOCALE_SETTINGS['BBI18N.WINDOWS_CHARSET'] = 'ISO-8859-1';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.MONTH_SHORT_HIJRI.00520'] = 'Muḥarram,Ṣafar,Rabīʿ\'I,Rabīʿ\'II,Jumādā\'I,Jumādā\'II,Rajab,Shaʿbān,Ramaḍān,Shawwāl,Dhū\'al-Qaʿda,Dhū\'al-Ḥijja';
+    LOCALE_SETTINGS['BBI18N.LINUX_CHARSET'] = 'iso88591';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.DAY_CHARACTER.03253'] = '';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.MONTH_CHARACTER.03254'] = '';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.NAME.COLUMN_ORDER'] = 'title,givenName,middleName,familyName,suffix,otherName';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.CALENDAR_TITLE_FORMAT_DAY.03258'] = 'dddd, MMM d, yyyy';
+    LOCALE_SETTINGS['number_format.decimal_point'] = '.';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.DAYS.00521'] = '01 02 03 04 05 06 07 08 09 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.DAY_FULL.02098'] = 'Sunday Monday Tuesday Wednesday Thursday Friday Saturday';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.date_display_pattern'] = 'MM/DD/YY';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.EXTENDED_SURNAME'] = '{3}';
+    LOCALE_SETTINGS['thousand.sep.format'] = ',';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.NUMBERS_HIJRI.00521'] = '0 1 2 3 4 5 6 7 8 9';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.ADDRESS_ORDER.07832'] = 'street,city,region,postal_code,country';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.CALENDAR_COLUMN_FORMAT_DAY.03257'] = 'dddd M/d';
+
+    LOCALE_SETTINGS.getString = i18n_get_string;
+    LOCALE_SETTINGS.getFormattedString = i18n_get_formatted_string;
+
+}
+
+_init_bundle_LOCALE_SETTINGS();
+
+</script>
+
+      <script language='javascript' type='text/javascript'>
+
+var LOCALE_SETTINGS = new Object();
+
+function _init_bundle_LOCALE_SETTINGS() {
+
+    LOCALE_SETTINGS['LOCALE_SETTINGS.ADDRESS_FIELD_ORDER'] = 'STREET_1 STREET_2 CITY STATE ZIP_CODE COUNTRY';
+    LOCALE_SETTINGS['number_format.exponent'] = 'eE';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.YEAR_CHARACTER.03255'] = '';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.NAME.COLUMN.2'] = '{1}';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.CALENDAR_COLUMN_FORMAT_MONTH.03255'] = 'ddd';
+    LOCALE_SETTINGS['BBI18N.SOLARIS_CHARSET'] = 'ISO8859-1';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.NAME.COLUMN.1'] = '{0}';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.internal_date_format'] = 'MM/dd/yy';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.CALENDAR_TITLE_FORMAT_MONTH.03259'] = 'MMMM yyyy';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.TIME_ORDER.00519'] = 'HMP';
+    LOCALE_SETTINGS['float.format'] = '^(([0-9]{1,3}(\\,[0-9]{3})*)|[0-9]*)(\\.[0-9]+)?$';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.NAME.SORT_COLUMN'] = 'familyName';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.SHORT'] = '{1} {3}';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.DAY_SHORT.02097'] = 'SUN MON TUE WED THU FRI SAT';
+    LOCALE_SETTINGS['float.allow.negative.format'] = '^((([-]?[0-9]{1,3}(\\,[0-9]{3})*)|[-]?[0-9]*)(\\.[0-9]+)?|\\.[0-9]+)?$';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.CALENDAR_TYPE'] = 'GREGORIAN';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.GIVEN_INITIAL_FAMILY_NAME'] = '{4} {3}';
+    LOCALE_SETTINGS['efloat.format'] = '^[+-]?[0-9]*(\\.[0-9]+)?([eE][+-]?[0-9]+)?$';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.CALENDAR_TITLE_FORMAT_WEEK.03260'] = 'MMM d[ yyyy]{ \'&#8212;\'[ MMM] d yyyy}';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.MONTH_FULL.02100'] = 'January February March April May June July August September October November December';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.NUMBERS_HIJRI_LOCALIZED.00521'] = 'NO';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.LONG'] = '{0} {1} {2} {3}';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.MONTH_FULL_HIJRI.02100'] = 'Muḥarram,Ṣafar,Rabīʿ\'al-Awwal,Rabīʿ\'ath-Thānī,Jumādā\'al-Ūlā,Jumādā\'ath-Thāniya,Rajab,Shaʿbān,Ramaḍān,Shawwāl,Dhū\'al-Qaʿda,Dhū\'al-Ḥijja';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.REPORT_FONT_NAME.03169'] = 'ARIAL.TTF';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.WORK_FIELD_ORDER'] = 'JOB_TITLE DEPARTMENT COMPANY B_PHONE_1 B_PHONE_2 B_FAX';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.GREETING'] = 'Welcome, {1}';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.MONTH_SHORT.00520'] = 'Jan Feb  Mar Apr  May Jun Jul Aug Sep Oct Nov Dec';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.REPORT_FONT_SIZE.03168'] = '8';
+    LOCALE_SETTINGS['number_format.thousands_sep'] = ',';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.CALENDAR_COLUMN_FORMAT_WEEK.03256'] = 'ddd M/d';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.SHORT_SURNAME'] = '{3}, {1}';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.AM_PM.00522'] = 'AM PM';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.DATE_ORDER.00519'] = 'MDY';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.PHONE_FIELD_ORDER'] = 'H_PHONE_1 H_PHONE_2 H_FAX M_PHONE';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.DAY_MIN.02099'] = 'Su Mo Tu We Th Fr Sa';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.24HR_SUPPORT.03208'] = '0';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.REPORT_FONT_PATH.03170'] = 'C:/WINNT/Fonts';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.FIRST_DAY_OF_WEEK.03207'] = '0';
+    LOCALE_SETTINGS['BBI18N.WINDOWS_CHARSET'] = 'ISO-8859-1';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.MONTH_SHORT_HIJRI.00520'] = 'Muḥarram,Ṣafar,Rabīʿ\'I,Rabīʿ\'II,Jumādā\'I,Jumādā\'II,Rajab,Shaʿbān,Ramaḍān,Shawwāl,Dhū\'al-Qaʿda,Dhū\'al-Ḥijja';
+    LOCALE_SETTINGS['BBI18N.LINUX_CHARSET'] = 'iso88591';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.DAY_CHARACTER.03253'] = '';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.MONTH_CHARACTER.03254'] = '';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.NAME.COLUMN_ORDER'] = 'title,givenName,middleName,familyName,suffix,otherName';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.CALENDAR_TITLE_FORMAT_DAY.03258'] = 'dddd, MMM d, yyyy';
+    LOCALE_SETTINGS['number_format.decimal_point'] = '.';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.DAYS.00521'] = '01 02 03 04 05 06 07 08 09 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.DAY_FULL.02098'] = 'Sunday Monday Tuesday Wednesday Thursday Friday Saturday';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.date_display_pattern'] = 'MM/DD/YY';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.EXTENDED_SURNAME'] = '{3}';
+    LOCALE_SETTINGS['thousand.sep.format'] = ',';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.NUMBERS_HIJRI.00521'] = '0 1 2 3 4 5 6 7 8 9';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.ADDRESS_ORDER.07832'] = 'street,city,region,postal_code,country';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.CALENDAR_COLUMN_FORMAT_DAY.03257'] = 'dddd M/d';
+
+    LOCALE_SETTINGS.getString = i18n_get_string;
+    LOCALE_SETTINGS.getFormattedString = i18n_get_formatted_string;
+
+}
+
+_init_bundle_LOCALE_SETTINGS();
+
+</script>
+
+         <script type="text/javascript" src="/javascript/cdn.js"></script>
+    <script type="text/javascript" src="/javascript/prototype.js?v=3200.0.5-rel.6+3dd6b56"></script>
+    <script type="text/javascript" src="/javascript/jquery/jquery.js?v=3200.0.5-rel.6+3dd6b56"></script>
+    <script type="text/javascript" src="/javascript/jquery/jquery-noconflict.js?v=3200.0.5-rel.6+3dd6b56"></script>
+    <script type="text/javascript" src="/javascript/fastinit.js?v=3200.0.5-rel.6+3dd6b56"></script>
+    <script type="text/javascript" src="/javascript/ngui/page.js?v=3200.0.5-rel.6+3dd6b56"></script>
+    <script type="text/javascript" src="/javascript/validateForm.js?v=3200.0.5-rel.6+3dd6b56"></script>
+    <script type="text/javascript" src="/javascript/numberLocalizer.js?v=3200.0.5-rel.6+3dd6b56"></script>
+    <script type="text/javascript" src="/javascript/accessibleSelect.js?v=3200.0.5-rel.6+3dd6b56"></script>
+    <script type="text/javascript" src="/javascript/popup.js?v=3200.0.5-rel.6+3dd6b56"></script>
+    <script type="text/javascript" src="/javascript/cookie.js?v=3200.0.5-rel.6+3dd6b56"></script>
+    <script type="text/javascript" src="/javascript/lz-string.js?v=3200.0.5-rel.6+3dd6b56"></script>
+    <script type="text/javascript" src="/javascript/client_cache.js?v=3200.0.5-rel.6+3dd6b56"></script>
+    <script type="text/javascript" src="/javascript/ngui/globalNavigation.js?v=3200.0.5-rel.6+3dd6b56"></script>
+    <script type="text/javascript" src="/webapps/assessment/dwr_open/interface/UserDataDWRFacade.js?v=3200.0.5-rel.6+3dd6b56_3200.0.5-rel.8+3dd6b56"></script>
+    <script type="text/javascript" src="/webapps/blackboard/dwr_open/interface/MashupDWRFacade.js?v=3200.0.5-rel.6+3dd6b56_3200.0.5-rel.8+3dd6b56"></script>
+    <script type="text/javascript" src="/javascript/esapi4js/esapi-compressed.js?v=3200.0.5-rel.6+3dd6b56"></script>
+    <script type="text/javascript" src="/javascript/esapi4js/resources/i18n/ESAPI_Standard_en_US.properties.js?v=3200.0.5-rel.6+3dd6b56"></script>
+    <script type="text/javascript" src="/javascript/esapi4js/resources/Base.esapi.properties.js?v=3200.0.5-rel.6+3dd6b56"></script>
+    <script type="text/javascript" src="/javascript/mathImg.js?v=3200.0.5-rel.6+3dd6b56"></script>
+    <script type="text/javascript" src="/javascript/titlebartagutils.js?v=3200.0.5-rel.6+3dd6b56"></script>
+    <script type="text/javascript" src="/javascript/ngui/inventoryList.js?v=3200.0.5-rel.6+3dd6b56"></script>
+    <script type="text/javascript" src="/webapps/assessment/dwr_open/interface/CourseMenuDWRFacade.js?v=3200.0.5-rel.6+3dd6b56_3200.0.5-rel.8+3dd6b56"></script>
+    <script type="text/javascript" src="/webapps/assessment/dwr_open/interface/UserPageInstructionsSettingDWRFacade.js?v=3200.0.5-rel.6+3dd6b56_3200.0.5-rel.8+3dd6b56"></script>
+    <script type="text/javascript" src="/javascript/dwr/engine.js?v=3200.0.5-rel.6+3dd6b56"></script>
+    <script type="text/javascript" src="/javascript/ngui/breadcrumbs.js?v=3200.0.5-rel.6+3dd6b56"></script>
+    <script type="text/javascript" src="/javascript/ngui/tree.js?v=3200.0.5-rel.6+3dd6b56"></script>
+    <script type="text/javascript" src="/javascript/ngui/coursemenu.js?v=3200.0.5-rel.6+3dd6b56"></script>
+    <script type="text/javascript" src="/javascript/dwr/util.js?v=3200.0.5-rel.6+3dd6b56"></script>
+    <script type="text/javascript" src="/webapps/portal/global_nav_menu.js?v=3200.0.5-rel.6+3dd6b56_3200.0.5-rel.8+3dd6b56"></script>
+    <script type="text/javascript" src="/webapps/assessment/dwr_open/interface/UserDWRFacade.js?v=3200.0.5-rel.6+3dd6b56_3200.0.5-rel.8+3dd6b56"></script>
+    <script type="text/javascript" src="/webapps/bb-social-learning-BBLEARN/js/mybb.js?v=3200.0.5-rel.6+3dd6b56_3200.0.5-rel.8+3dd6b56"></script>
+    <script type="text/javascript" src="/webapps/portal/overlay/welcomeOverlay.js?v=3200.0.5-rel.6+3dd6b56_3200.0.5-rel.8+3dd6b56"></script>
+    <script type="text/javascript" src="/webapps/assessment/dwr_open/interface/ToolActivityService.js?v=3200.0.5-rel.6+3dd6b56_3200.0.5-rel.8+3dd6b56"></script>
+    <script type="text/javascript" src="/webapps/bb-gate-BBLEARN/js/tool_service.js?v=3200.0.5-rel.6+3dd6b56_3200.0.5-rel.8+3dd6b56"></script>
+    <script type="text/javascript" src="/webapps/bb-social-learning-BBLEARN/js/social.js?v=3200.0.5-rel.6+3dd6b56_3200.0.5-rel.8+3dd6b56"></script>
+    <script type="text/javascript" src="/webapps/assessment/dwr_open/interface/ProfileProviderService.js?v=3200.0.5-rel.6+3dd6b56_3200.0.5-rel.8+3dd6b56"></script>
+    <script type="text/javascript" src="/javascript/browserSpecificBehavior.js?v=3200.0.5-rel.6+3dd6b56"></script>
+    <script type="text/javascript" src="/javascript/scriptaculous/builder.js?v=3200.0.5-rel.6+3dd6b56"></script>
+    <script type="text/javascript" src="/javascript/scriptaculous/effects.js?v=3200.0.5-rel.6+3dd6b56"></script>
+    <script type="text/javascript" src="/javascript/scriptaculous/dragdrop.js?v=3200.0.5-rel.6+3dd6b56"></script>
+    <script type="text/javascript" src="/javascript/scriptaculous/controls.js?v=3200.0.5-rel.6+3dd6b56"></script>
+    <script type="text/javascript" src="/javascript/scriptaculous/slider.js?v=3200.0.5-rel.6+3dd6b56"></script>
+    <script type="text/javascript" src="/javascript/ngui/lightbox.js?v=3200.0.5-rel.6+3dd6b56"></script>
+    <script type="text/javascript" src="/javascript/quick_links.js?v=3200.0.5-rel.6+3dd6b56"></script>
+    </head>
+  <body >
+  
+<h1 class="hideoff hideFromQuickLinks">Open Quick Links</h1><div id=quick_links_wrap><a id=quick_links_lightbox_link href="#" onclick="quickLinks.lightboxHelper.toggleLightbox(); return false;" role=button aria-haspopup=true tabindex=1 title="Open&#x20;Quick&#x20;Links">Quick Links</a></div><div id=quickLinksLightboxDiv class=hideoff aria-hidden=true style="display:none"><div class=ax-content><div class=content-lite><div id=quick_links_landmarks_section><h2 class=hideFromQuickLinks>Page Landmarks</h2><ul class=shortcut-list id=quick_links_landmark_list></ul></div><div id=quick_links_headings_section><h2 class=hideFromQuickLinks>Content Outline</h2><ul class=shortcut-list id=quick_links_heading_list></ul></div></div><div id=quick_links_hotkeys_section class=legend><h2 class=hideFromQuickLinks>Keyboard Shortcuts</h2><ul class=keycombos id=quick_links_hotkey_list></ul></div></div></div><h1 class="hideoff hideFromQuickLinks"></h1><div class=global-nav-bar-wrap><div class="global-nav-bar logout"><a id="topframe.logout.label" href="/webapps/login/?action=logout" target=_top class="nav-link logout-link" title=Logout> Logout</a></div><div id=global-nav class=global-nav-bar role=navigation data-preview=false><div class=hideoff>Global Menu</div><a id=global-nav-link class="nav-link u_floatThis-right" href="#global-nav-flyout" aria-haspopup=true tabindex=1 accesskey=m role=navigation title="Open&#x20;Global&#x20;Navigation&#x20;Menu"><img src="/images/ci/ng/default_profile_avatar.png" alt="" id=global-avatar dataToolTitle="User Avatar Image" class=global-top-avatar /> JOHN ABRAMS<span id=badgeTotal style="visibility: hidden" title=""><span class=hideoff id=badgeAXLabel>Activity Updates</span><span class=badge id=badgeTotalCount title=""></span></span><img src="/images/ci/mybb/arrowDown-topnav.png" alt="Expand Global Nav" id=global-toggle-img class=global-toggle /></a><div id=global-nav-flyout class=flyout-menu style="display: none;" role=application><ul id=bottomButtons class=bottom-buttons><li class=bottom-buttons-home><a id="topframe.home.label" href="http://www.blackboard.com/" target=_blank class=home title=Home role=menuitem> Home</a></li><li class=bottom-buttons-help><a id="topframe.help.label" href="#" onClick="globalNavigation.openHelpWindow('https://redirects.blackboard.com/001_000en_US');" class=help title=Help role=menuitem> Help</a></li></ul></div></div></div>
+<!-- global_nav.jsp -->
+
+<div id="globalNavPageNavArea">
+    <table class="bouncer" summary="Top frame table" role="presentation">
+      <tr>
+        <td>
+          <div class="topTabs bgBanner" id="topTabs">
+  
+            <div class="brandingImgWrap">
+              <a href="http://www.cnm.edu" target="_blank" title="CNM Blackboard Learn">
+                <img  src="/branding/_1_1/LinkimageBb.bmp"  alt="CNM Blackboard Learn" title="CNM Blackboard Learn" class="bannerImage"/>
+</a>
+            </div>
+  
+            <div class="tabWrapper-right">
+              <H2 CLASS="hideoff">Top Frame Tabs</H2>
+              <table class="appTabs transparent" id="appTabList" summary="Tab List table" role="presentation">
+                <tr>
+                 <td id="CNM"  >
+                      <a href="/webapps/portal/execute/tabs/tabAction?tab_tab_group_id=_1_1" TARGET="_top"><span>CNM</span>
+                        <span class="hideoff"> Tab 1 of 3</span>
+                      </a>
+                    </td>
+                  <td id="Courses"  class="active"  >
+                      <a href="/webapps/portal/execute/tabs/tabAction?tab_tab_group_id=_2_1" TARGET="_top"><span>Courses</span>
+                        <span class="hideoff"> Tab 2 of 3&nbsp;(active tab)</span>
+                      </a>
+                    </td>
+                  <td id="Community.label"  >
+                      <a href="/webapps/portal/execute/tabs/tabAction?tab_tab_group_id=_3_1" TARGET="_top"><span>Community</span>
+                        <span class="hideoff"> Tab 3 of 3</span>
+                      </a>
+                    </td>
+                  </tr>
+              </table>
+              <div class="clearfloats"></div>
+            </div>
+            </div>
+        </td>
+      </tr>
+    </table>
+  </div>
+
+<div id="globalNavPageContentArea">
+
+<h2 class="hideoff">
+ Current Location
+</h2>
+
+<div id="breadcrumbs" class="breadcrumbs clearfix ">
+
+ <div class="breadcrumb-controls clearfix" id="breadcrumb_controls_id">
+
+
+
+
+
+<div id="helpTextToggle" class="helpLink hidden">
+  <a href="#" id="helpTextToggleLink" class="browseIcon">
+	<img id="helpTextToggleImg" src="/images/ci/ng/small_help_on2.gif" alt="Turn help text off and on"/></a>
+</div>
+ <input type='hidden' name='showHelperSetting' id='showHelperSetting' value=''>
+ </div>
+
+ <div class="path  noToggle" role="navigation">
+ <ol class="clearfix">
+    	<li
+    class="root coursePath"
+        > <a href="/webapps/blackboard/execute/courseMain?course_id=_141908_1"  title="EMS-1053-152_FAL_2018">                  EMS-1053-152_FAL_2018
+              </a>      <div id="arrowContext_1"
+         class="courseArrow"       onClick="page.ContextMenu.changeArrowInBreadcrumb(1, event );">
+<span class="contextMenuContainer" style=" display: inline;" bb:menuGeneratorURL="/webapps/blackboard/execute/getCrossCourseMenuHTML?course_id=_141908_1" bb:navItem="" bb:contextParameters="" bb:menuOrder="" bb:overwriteNavItems="" bb:beforeShowFunc="">
+   
+  <a  id="cmlink_a66e3a4c808047f3a742ae2a3b47ca39" onfocus="page.ContextMenu.LI(event, 'cmdiv_a66e3a4c808047f3a742ae2a3b47ca39',false);" onmouseover="page.ContextMenu.LI(event, 'cmdiv_a66e3a4c808047f3a742ae2a3b47ca39',false);" class="cmimg editmode jsInit   cmimg-hide" href="#contextMenu" title="Course-to-Course Navigation"> <img src="/images/ci/icons/cmlink_generic.gif" alt="Course-to-Course Navigation"  onload="page.ContextMenu.LI(event, 'cmdiv_a66e3a4c808047f3a742ae2a3b47ca39',false);"></a>
+  <div id="cmdiv_a66e3a4c808047f3a742ae2a3b47ca39" class="cmdiv" style="display: none;">
+   <ul id="cmul0_a66e3a4c808047f3a742ae2a3b47ca39"> 
+    <li class="contextmenubar_top">
+      <a href="#close" class="close-menu">
+        <span class="close-contextmenu" data-icon="X" role="presentation" aria-hidden="true"></span>
+        <img alt="Close Menu" src="/images/ci/ng/close_mini.gif"></a>
+    </li>      
+       </ul>   
+  </div>
+</span>
+</div>    </li>
+   	<li
+        > <a href="/webapps/blackboard/content/listContent.jsp?course_id=_141908_1&content_id=_7242202_1&mode=reset"  title="Weekly Quizzes">                  Weekly Quizzes
+              </a>          </li>
+   	<li
+    class="placeholder"        >                   Review Test Submission: Quiz #7
+                        </li>
+  </ol>
+ </div>
+
+</div>
+
+<div class="locationPane">
+ <div id="navigationPane" class="navigationPane ">
+ 
+
+ <div id="menuWrap" class="menuWrap" >
+  <div id="puller" >
+  <a id="menuPuller" class="clickpuller" title="Hide Course Menu" href="#">
+   <img id="expander" alt="Hide Course Menu" src="/images/spacer.gif"/>
+  </a>
+ </div>
+<div class="menuWrap-inner">
+  <input type='hidden' name='blackboard.platform.security.NonceUtil.nonce' value='7143e1f9-2478-425f-b8e8-449310d38e24'><div id="courseMenuPalette" class="navPalette listCm navPaletteExpCol"><div class="actionBarMicro clearfix"><h2 class="hideoff">Menu Management Options</h2><ul class="nav clearfix u_floatThis-right"><li id="refreshMenuLink" class="secondaryButton "><a href="#" title="Refresh"><span><img src="/images/ci/ng/small_refresh.gif" alt="Refresh"></span></a></li><li id="courseMapButton" class="secondaryButton "><a href="#" title="Display Course Menu in a Window"><span><img src="/images/ci/ng/small_new_window.gif" alt="Display Course Menu in a Window"></span></a></li></ul></div><div class="navPaletteContent"><h2 class="hideoff" tabindex="-1">Course Menu:</h2><div id="courseMenuPalette_paletteTitleHeading"><div class="navPaletteTitle"><h3 aria-expanded="true"><a href="#" class="comboLink" title="Collapse EMS-1053-152_FAL_2018" id="courseMenu_link">EMS-1053-152_FAL_2018</a></h3><h3><a href="/webapps/blackboard/execute/courseMain?course_id=_141908_1" target="" class="submenuLink" id="courseMenu_combo" title="Go to Course Entry Page"><img src="/images/ci/icons/generic_dbl_arrow_right.gif" alt="Course Entry Page"></a></h3></div></div><ul id="courseMenuPalette_contents" class="courseMenu"><li id="paletteItem:_2709080_1" class="clearfix "><a href="/webapps/blackboard/content/listContent.jsp?course_id=_141908_1&content_id=_7053940_1&mode=reset" target="_self"><span title="Welcome!">Welcome!</span></a></li><li id="paletteItem:_2709081_1" class="clearfix "><a href="/webapps/blackboard/content/listContent.jsp?course_id=_141908_1&content_id=_7053941_1&mode=reset" target="_self"><span title="Start Here">Start Here</span></a></li><li id="paletteItem:_2770697_1" class="clearfix "><a href="/webapps/blackboard/content/listContent.jsp?course_id=_141908_1&content_id=_7242198_1&mode=reset" target="_self"><span title="Syllabus and Course Schedule">Syllabus and Course Schedule</span></a></li><li id="paletteItem:_2709083_1" class="clearfix "><a href="/webapps/blackboard/content/listContent.jsp?course_id=_141908_1&content_id=_7053944_1&mode=reset" target="_self"><span title="Instructor Information">Instructor Information</span></a></li><li id="paletteItem:_2770705_1" class="clearfix "><a href="/webapps/blackboard/content/launchLink.jsp?course_id=_141908_1&tool_id=_1835_1&tool_type=TOOL&mode=view&mode=reset" target="_self"><span title="Course Calendar">Course Calendar</span></a></li><li id="paletteItem:_2709254_1" class="clearfix divider"><hr></li><li id="paletteItem:_2709255_1" class="clearfix subhead"><h3><span title="Course Content">Course Content</span></h3></li><li id="paletteItem:_2770700_1" class="clearfix "><a href="/webapps/blackboard/content/listContent.jsp?course_id=_141908_1&content_id=_7242201_1&mode=reset" target="_self"><span title="Exams">Exams</span></a></li><li id="paletteItem:_2770701_1" class="clearfix "><a href="/webapps/blackboard/content/listContent.jsp?course_id=_141908_1&content_id=_7242202_1&mode=reset" target="_self"><span title="Weekly Quizzes">Weekly Quizzes</span></a></li><li id="paletteItem:_2709084_1" class="clearfix "><a href="/webapps/blackboard/content/listContent.jsp?course_id=_141908_1&content_id=_7053943_1&mode=reset" target="_self"><span title="Learning Modules">Learning Modules</span></a></li><li id="paletteItem:_2770702_1" class="clearfix "><a href="/webapps/blackboard/content/listContent.jsp?course_id=_141908_1&content_id=_7242203_1&mode=reset" target="_self"><span title="Supplemental Materials">Supplemental Materials</span></a></li><li id="paletteItem:_2770703_1" class="clearfix "><a href="/webapps/blackboard/content/listContent.jsp?course_id=_141908_1&content_id=_7242204_1&mode=reset" target="_self"><span title="Video Library">Video Library</span></a></li><li id="paletteItem:_2709256_1" class="clearfix "><a href="/webapps/blackboard/content/launchLink.jsp?course_id=_141908_1&tool_id=_125_1&tool_type=TOOL&mode=view&mode=reset" target="_self"><span title="Discussions">Discussions</span></a></li><li id="paletteItem:_2709257_1" class="clearfix divider"><hr></li><li id="paletteItem:_2709258_1" class="clearfix subhead"><h3><span title="Course Communication">Course Communication</span></h3></li><li id="paletteItem:_2709259_1" class="clearfix "><a href="/webapps/blackboard/content/launchLink.jsp?course_id=_141908_1&tool_id=_117_1&tool_type=TOOL&mode=view&mode=reset" target="_self"><span title="Announcements">Announcements</span></a></li><li id="paletteItem:_2770708_1" class="clearfix "><a href="/webapps/blackboard/content/launchLink.jsp?course_id=_141908_1&tool_id=_118_1&tool_type=TOOL&mode=view&mode=reset" target="_self"><span title="CNM Email">CNM Email</span></a></li><li id="paletteItem:_2709261_1" class="clearfix "><a href="/webapps/blackboard/content/launchLink.jsp?course_id=_141908_1&tool_id=_2042_1&tool_type=TOOL&mode=view&mode=reset" target="_self"><span title="Bb IM">Bb IM</span></a></li><li id="paletteItem:_2709262_1" class="clearfix "><a href="/webapps/blackboard/content/launchLink.jsp?course_id=_141908_1&tool_id=_3142_1&tool_type=TOOL&mode=view&mode=reset" target="_self"><span title="Collaborate Ultra">Collaborate Ultra</span></a></li><li id="paletteItem:_2709263_1" class="clearfix "><a href="/webapps/blackboard/content/launchLink.jsp?course_id=_141908_1&tool_id=_139_1&tool_type=TOOL&mode=view&mode=reset" target="_self"><span title="My Grades">My Grades</span></a></li><li id="paletteItem:_2709264_1" class="clearfix divider"><hr></li><li id="paletteItem:_2709265_1" class="clearfix subhead"><h3><span title="Help!">Help!</span></h3></li><li id="paletteItem:_2770709_1" class="clearfix "><a href="/webapps/blackboard/content/launchLink.jsp?course_id=_141908_1&toc_id=_2770709_1&mode=view&mode=reset" target="_self"><span title="CNM Learn Jump Start">CNM Learn Jump Start</span></a></li><li id="paletteItem:_2709267_1" class="clearfix "><a href="http://www.cnm.edu/depts/libraries/" target="_blank"><span title="CNM Libraries">CNM Libraries</span></a></li><li id="paletteItem:_2770710_1" class="clearfix "><a href="/webapps/blackboard/content/launchLink.jsp?course_id=_141908_1&toc_id=_2770710_1&mode=view&mode=reset" target="_self"><span title="Links to Success">Links to Success</span></a></li><li id="paletteItem:_2709269_1" class="clearfix "><a href="https://supportcenter.embanet.com/cnm" target="_blank"><span title="Embanet - 24/7 Bb Help">Embanet - 24/7 Bb Help</span></a></li><li id="paletteItem:_2709270_1" class="clearfix "><a href="https://help.blackboard.com/Learn/Student" target="_blank"><span title="Bb Student Help">Bb Student Help</span></a></li><li id="paletteItem:_2709271_1" class="clearfix "><a href="https://www.cnm.edu/student-resources" target="_blank"><span title="CNM Student Resources">CNM Student Resources</span></a></li><li id="paletteItem:_2770707_1" class="clearfix divider"><hr></li><li id="paletteItem:_2770706_1" class="clearfix subhead"><h3><span title="Student Hanbooks">Student Hanbooks</span></h3></li><li id="paletteItem:_2770698_1" class="clearfix "><a href="/webapps/blackboard/content/listContent.jsp?course_id=_141908_1&content_id=_7242199_1&mode=reset" target="_self"><span title="EMS Student Handbook">EMS Student Handbook</span></a></li><li id="paletteItem:_2770699_1" class="clearfix "><a href="/webapps/blackboard/content/listContent.jsp?course_id=_141908_1&content_id=_7242200_1&mode=reset" target="_self"><span title="HWPS Student Handbook">HWPS Student Handbook</span></a></li><li id="paletteItem:_2770711_1" class="clearfix divider"><hr></li></ul></div></div>
+  </div>
+ </div>
+ </div>
+ <div id="contentPanel" class="contentPane ok ">
+<div class="shadow">
+       <div id="editmodeWrapper"> 
+ 
+  <div id="content" class="contentBox ">
+   
+<div id="pageTitleDiv" class="pageTitle clearfix ">
+
+  
+<div id="pageTitleBar" class='pageTitleIcon' tabindex="0">
+  <img src="/images/ci/sets/set01/editpage_on.gif" alt="" id="titleicon"><h1 id="pageTitleHeader" tabindex="-1" ><span id="pageTitleText">
+  <span style="color:;">Review Test Submission: Quiz #7</span>  </span></h1>
+        <span id="_titlebarExtraContent" class="titleButtons"></span>
+</div>
+
+
+</div>
+
+      <div class="container clearfix" id="containerdiv">
+    <h2 class="hideoff">Content</h2>
+    <script type="text/javascript" src="/webapps/achievements/js/achievement.js"></script><script src="/javascript/scriptaculous/version_pinned_scriptaculous.js"></script><link rel="stylesheet" href="/webapps/achievements/css/achievements.css" type="text/css" media="screen" /><script type="text/javascript">
+new Ajax.Request('/webapps/achievements/checkAchievements.form', {
+method:'get',
+asynchronous:true,
+parameters: {courseId: '_141908_1', type: 1 },
+onSuccess: function(response) {
+var jsonArray = response.responseJSON;
+handleAchievements(jsonArray);
+},
+onFailure: function() { alert('Something went wrong...'); }
+});
+</script><!-- This block is not embedded within jspBlock as ref variables declared/defined here are used further in the code.-->
+<meta http-equiv="Pragma" content="no-cache">
+<meta http-equiv="Expires" content="-1">
+
+<head>
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Expires" content="-1">
+</head>
+<div id="bbNG.receiptTag.content" tabindex="0"><!-- assessment\web\WEB-INF\jsp\assessment\attempt\review\assessment.jsp -->
+
+<div class="infoListWrapper">
+  <table class="key-valueTable" summary="">
+        
+<tr valign="top">
+  <th scope="row" class="u_normalAlign"><span class="label">User</span></th>
+  <td>
+
+JOHN ABRAMS
+  </td>
+</tr>
+
+<tr valign="top">
+  <th scope="row" class="u_normalAlign"><span class="label">Course</span></th>
+  <td>
+
+EMS-1053-152_FAL_2018
+  </td>
+</tr>
+
+<tr valign="top">
+  <th scope="row" class="u_normalAlign"><span class="label">Test</span></th>
+  <td>
+
+Quiz #7
+  </td>
+</tr>
+
+<tr valign="top">
+  <th scope="row" class="u_normalAlign"><span class="label">Started</span></th>
+  <td>
+
+10/25/18 12:33 PM
+  </td>
+</tr>
+
+<tr valign="top">
+  <th scope="row" class="u_normalAlign"><span class="label">Submitted</span></th>
+  <td>
+
+10/25/18 12:51 PM
+  </td>
+</tr>
+
+<tr valign="top">
+  <th scope="row" class="u_normalAlign"><span class="label">Due Date</span></th>
+  <td>
+
+12/7/18 11:59 PM
+  </td>
+</tr>
+
+<tr valign="top">
+  <th scope="row" class="u_normalAlign"><span class="label">Status</span></th>
+  <td>
+
+Completed
+  </td>
+</tr>
+
+<tr valign="top">
+  <th scope="row" class="u_normalAlign"><span class="label">Attempt Score</span></th>
+  <td>
+
+100 out of 100 points
+            &nbsp;
+          
+  </td>
+</tr>
+
+<tr valign="top">
+  <th scope="row" class="u_normalAlign"><span class="label">Time Elapsed</span></th>
+  <td>
+
+17 minutes out of 1 hour 
+  </td>
+</tr>
+
+<tr valign="top">
+  <th scope="row" class="u_normalAlign"><span class="label">Results Displayed</span></th>
+  <td>
+
+All Answers, Submitted Answers, Incorrectly Answered Questions
+  </td>
+</tr>
+</table>
+   <div class="alignPanel">        <div id="LEARNING_STANDARD_blackboard.data.qti.asi.AsiObject;_42620979_1">                </div>  </div>  </div>
+
+  
+
+
+<!-- remember whether this list is paged -->
+<input type="hidden" name="isPaged" value="false" />
+
+<!-- begin edit paging (top) --> 
+  <!-- end top paging edit -->
+
+
+
+<!-- Begin top list actionbar /paging area -->
+ 
+<ul id="content_listContainer" class="contentListPlain">
+
+
+
+<li id="contentListItem:_109871416_1"	class="clearfix read">
+
+
+<div class="item clearfix contentListRightOffset" ID="_109871416_1">
+
+ <h3>
+  <span class="reorder editmode hideme"><span><img src="/images/ci/icons/generic_updown.gif" alt="" /></span></span>
+
+
+
+     Question 1
+ </h3>
+   
+ </div>
+
+<div class="contentListRight">
+  <p class="taskbuttondiv">4 out of 4 points</p>
+</div>
+
+
+<div class="details" >
+    
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+<tr>
+  <td class="bLight" nowrap valign="middle" >
+ <a class="hidden" href='#' onclick='return false;' id="question_1"/>&nbsp;</a>
+</td>
+<td class="bLight" align="RIGHT" colspan="5" nowrap valign="middle" > </td>
+</tr>
+<tr>
+<td class="reviewTestSubCellForIconBig" valign="top" align="center" rowspan="2"><img id="gs_q1" src="/images/ci/icons/grade-correct_u.gif" alt="Correct" title="Correct"></td>
+<td colspan=2 valign="top" width="100%"><div class="vtbegenerated inlineVtbegenerated">As a woman approaches menopause:</div>
+</td>
+</tr>
+<tr>
+<td colspan=2 valign="top">
+<table cellpadding=5 cellspacing=0>
+  <tr>
+        <td valign="top">
+          <span class="label">Selected Answer:</span>
+        </td>
+        <td valign="top">
+          <div class=reviewQuestionsAnswerDiv>
+            <span class="spacerImageHolder"></span><span class="answerNumLabelSpan">C.</span>
+            <span class=answerTextSpan>
+              
+<div class="vtbegenerated inlineVtbegenerated">her menstrual periods may become irregular and vary in severity.</div>
+</span>
+          </div>
+        </td>
+      </tr>
+  <tr>
+          <td valign="top">
+      <span class="label">Answers:</span>
+      </td>
+          
+      <td valign="top">
+            <div class=reviewQuestionsAnswerDiv>
+              <span class="spacerImageHolder"></span><span class="answerNumLabelSpan">A.</span>
+              <span class=answerTextSpan>
+                
+<div class="vtbegenerated inlineVtbegenerated"><label for="mc-ans-_109871416_1_0">she cannot become pregnant because of fluctuating hormone levels.</label></div>
+</span>
+            </div>
+          </td>
+            
+        </tr>
+        </td>
+          
+      <tr>
+          <td></td>
+      <td valign="top">
+            <div class=reviewQuestionsAnswerDiv>
+              <span class="spacerImageHolder"></span><span class="answerNumLabelSpan">B.</span>
+              <span class=answerTextSpan>
+                
+<div class="vtbegenerated inlineVtbegenerated"><label for="mc-ans-_109871416_1_1">her risk of developing PID lowers significantly.</label></div>
+</span>
+            </div>
+          </td>
+            
+        </tr>
+        </td>
+          
+      <tr>
+          <td></td>
+      <td valign="top">
+            <div class=reviewQuestionsAnswerDiv>
+              <span class="spacerImageHolder"></span><span class="answerNumLabelSpan">C.</span>
+              <span class=answerTextSpan>
+                
+<div class="vtbegenerated inlineVtbegenerated"><label for="mc-ans-_109871416_1_2">her menstrual periods may become irregular and vary in severity.</label></div>
+</span>
+            </div>
+          </td>
+            
+        </tr>
+        </td>
+          
+      <tr>
+          <td></td>
+      <td valign="top">
+            <div class=reviewQuestionsAnswerDiv>
+              <span class="spacerImageHolder"></span><span class="answerNumLabelSpan">D.</span>
+              <span class=answerTextSpan>
+                
+<div class="vtbegenerated inlineVtbegenerated"><label for="mc-ans-_109871416_1_3">she usually experiences abdominal cramping without vaginal bleeding.</label></div>
+</span>
+            </div>
+          </td>
+            
+        </tr>
+        </table>
+
+
+
+</td>
+</tr>
+</table> <div class="alignPanel">        <div id="LEARNING_STANDARD_blackboard.data.qti.asi.AsiObject;_42617155_1">                </div>  </div>  
+  </div>
+
+ <div id="_109871416_1previewModule" class="moduleSample">
+ </div>
+</li>
+
+
+
+
+<li id="contentListItem:_109871417_1"	class="clearfix read">
+
+
+<div class="item clearfix contentListRightOffset" ID="_109871417_1">
+
+ <h3>
+  <span class="reorder editmode hideme"><span><img src="/images/ci/icons/generic_updown.gif" alt="" /></span></span>
+
+
+
+     Question 2
+ </h3>
+   
+ </div>
+
+<div class="contentListRight">
+  <p class="taskbuttondiv">4 out of 4 points</p>
+</div>
+
+
+<div class="details" >
+    
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+<tr>
+  <td class="bLight" nowrap valign="middle" >
+ <a class="hidden" href='#' onclick='return false;' id="question_2"/>&nbsp;</a>
+</td>
+<td class="bLight" align="RIGHT" colspan="5" nowrap valign="middle" > </td>
+</tr>
+<tr>
+<td class="reviewTestSubCellForIconBig" valign="top" align="center" rowspan="2"><img id="gs_q2" src="/images/ci/icons/grade-correct_u.gif" alt="Correct" title="Correct"></td>
+<td colspan=2 valign="top" width="100%"><div class="vtbegenerated inlineVtbegenerated">Law enforcement personnel request your assistance to assess a 31-year-old female who was sexually assaulted. When you arrive at the scene, you find the patient sitting on a curb outside her apartment. She is conscious, alert, and crying. When you ask her what happened, she tells you that she does not want to be treated or transported to the hospital. She further tells you that all she wants to do is clean up. You should:</div>
+</td>
+</tr>
+<tr>
+<td colspan=2 valign="top">
+<table cellpadding=5 cellspacing=0>
+  <tr>
+        <td valign="top">
+          <span class="label">Selected Answer:</span>
+        </td>
+        <td valign="top">
+          <div class=reviewQuestionsAnswerDiv>
+            <span class="spacerImageHolder"></span><span class="answerNumLabelSpan">C.</span>
+            <span class=answerTextSpan>
+              
+<div class="vtbegenerated inlineVtbegenerated">provide emotional support and visually assess her for obvious trauma.</div>
+</span>
+          </div>
+        </td>
+      </tr>
+  <tr>
+          <td valign="top">
+      <span class="label">Answers:</span>
+      </td>
+          
+      <td valign="top">
+            <div class=reviewQuestionsAnswerDiv>
+              <span class="spacerImageHolder"></span><span class="answerNumLabelSpan">A.</span>
+              <span class=answerTextSpan>
+                
+<div class="vtbegenerated inlineVtbegenerated"><label for="mc-ans-_109871417_1_0">advise her that she cannot clean herself up because this will destroy evidence.</label></div>
+</span>
+            </div>
+          </td>
+            
+        </tr>
+        </td>
+          
+      <tr>
+          <td></td>
+      <td valign="top">
+            <div class=reviewQuestionsAnswerDiv>
+              <span class="spacerImageHolder"></span><span class="answerNumLabelSpan">B.</span>
+              <span class=answerTextSpan>
+                
+<div class="vtbegenerated inlineVtbegenerated"><label for="mc-ans-_109871417_1_1">perform a limited hands-on assessment to detect life-threatening injuries.</label></div>
+</span>
+            </div>
+          </td>
+            
+        </tr>
+        </td>
+          
+      <tr>
+          <td></td>
+      <td valign="top">
+            <div class=reviewQuestionsAnswerDiv>
+              <span class="spacerImageHolder"></span><span class="answerNumLabelSpan">C.</span>
+              <span class=answerTextSpan>
+                
+<div class="vtbegenerated inlineVtbegenerated"><label for="mc-ans-_109871417_1_2">provide emotional support and visually assess her for obvious trauma.</label></div>
+</span>
+            </div>
+          </td>
+            
+        </tr>
+        </td>
+          
+      <tr>
+          <td></td>
+      <td valign="top">
+            <div class=reviewQuestionsAnswerDiv>
+              <span class="spacerImageHolder"></span><span class="answerNumLabelSpan">D.</span>
+              <span class=answerTextSpan>
+                
+<div class="vtbegenerated inlineVtbegenerated"><label for="mc-ans-_109871417_1_3">ask her if there is anyone you can contact, such as a friend or relative.</label></div>
+</span>
+            </div>
+          </td>
+            
+        </tr>
+        </table>
+
+
+
+</td>
+</tr>
+</table> <div class="alignPanel">        <div id="LEARNING_STANDARD_blackboard.data.qti.asi.AsiObject;_42617170_1">                </div>  </div>  
+  </div>
+
+ <div id="_109871417_1previewModule" class="moduleSample">
+ </div>
+</li>
+
+
+
+
+<li id="contentListItem:_109871418_1"	class="clearfix read">
+
+
+<div class="item clearfix contentListRightOffset" ID="_109871418_1">
+
+ <h3>
+  <span class="reorder editmode hideme"><span><img src="/images/ci/icons/generic_updown.gif" alt="" /></span></span>
+
+
+
+     Question 3
+ </h3>
+   
+ </div>
+
+<div class="contentListRight">
+  <p class="taskbuttondiv">4 out of 4 points</p>
+</div>
+
+
+<div class="details" >
+    
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+<tr>
+  <td class="bLight" nowrap valign="middle" >
+ <a class="hidden" href='#' onclick='return false;' id="question_3"/>&nbsp;</a>
+</td>
+<td class="bLight" align="RIGHT" colspan="5" nowrap valign="middle" > </td>
+</tr>
+<tr>
+<td class="reviewTestSubCellForIconBig" valign="top" align="center" rowspan="2"><img id="gs_q3" src="/images/ci/icons/grade-correct_u.gif" alt="Correct" title="Correct"></td>
+<td colspan=2 valign="top" width="100%"><div class="vtbegenerated inlineVtbegenerated">In contrast to a behavioral crisis, a psychiatric emergency occurs when a person:</div>
+</td>
+</tr>
+<tr>
+<td colspan=2 valign="top">
+<table cellpadding=5 cellspacing=0>
+  <tr>
+        <td valign="top">
+          <span class="label">Selected Answer:</span>
+        </td>
+        <td valign="top">
+          <div class=reviewQuestionsAnswerDiv>
+            <span class="spacerImageHolder"></span><span class="answerNumLabelSpan">D.</span>
+            <span class=answerTextSpan>
+              
+<div class="vtbegenerated inlineVtbegenerated">demonstrates agitation or violence or becomes a threat to himself or herself, or to others.</div>
+</span>
+          </div>
+        </td>
+      </tr>
+  <tr>
+          <td valign="top">
+      <span class="label">Answers:</span>
+      </td>
+          
+      <td valign="top">
+            <div class=reviewQuestionsAnswerDiv>
+              <span class="spacerImageHolder"></span><span class="answerNumLabelSpan">A.</span>
+              <span class=answerTextSpan>
+                
+<div class="vtbegenerated inlineVtbegenerated"><label for="mc-ans-_109871418_1_0">exhibits impaired functioning due to a chemical or genetic disturbance.</label></div>
+</span>
+            </div>
+          </td>
+            
+        </tr>
+        </td>
+          
+      <tr>
+          <td></td>
+      <td valign="top">
+            <div class=reviewQuestionsAnswerDiv>
+              <span class="spacerImageHolder"></span><span class="answerNumLabelSpan">B.</span>
+              <span class=answerTextSpan>
+                
+<div class="vtbegenerated inlineVtbegenerated"><label for="mc-ans-_109871418_1_1">experiences feelings of sadness and despair for longer than a month.</label></div>
+</span>
+            </div>
+          </td>
+            
+        </tr>
+        </td>
+          
+      <tr>
+          <td></td>
+      <td valign="top">
+            <div class=reviewQuestionsAnswerDiv>
+              <span class="spacerImageHolder"></span><span class="answerNumLabelSpan">C.</span>
+              <span class=answerTextSpan>
+                
+<div class="vtbegenerated inlineVtbegenerated"><label for="mc-ans-_109871418_1_2">experiences a sudden attack of panic secondary to a stressful situation.</label></div>
+</span>
+            </div>
+          </td>
+            
+        </tr>
+        </td>
+          
+      <tr>
+          <td></td>
+      <td valign="top">
+            <div class=reviewQuestionsAnswerDiv>
+              <span class="spacerImageHolder"></span><span class="answerNumLabelSpan">D.</span>
+              <span class=answerTextSpan>
+                
+<div class="vtbegenerated inlineVtbegenerated"><label for="mc-ans-_109871418_1_3">demonstrates agitation or violence or becomes a threat to himself or herself, or to others.</label></div>
+</span>
+            </div>
+          </td>
+            
+        </tr>
+        </table>
+
+
+
+</td>
+</tr>
+</table> <div class="alignPanel">        <div id="LEARNING_STANDARD_blackboard.data.qti.asi.AsiObject;_42619576_1">                </div>  </div>  
+  </div>
+
+ <div id="_109871418_1previewModule" class="moduleSample">
+ </div>
+</li>
+
+
+
+
+<li id="contentListItem:_109871419_1"	class="clearfix read">
+
+
+<div class="item clearfix contentListRightOffset" ID="_109871419_1">
+
+ <h3>
+  <span class="reorder editmode hideme"><span><img src="/images/ci/icons/generic_updown.gif" alt="" /></span></span>
+
+
+
+     Question 4
+ </h3>
+   
+ </div>
+
+<div class="contentListRight">
+  <p class="taskbuttondiv">4 out of 4 points</p>
+</div>
+
+
+<div class="details" >
+    
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+<tr>
+  <td class="bLight" nowrap valign="middle" >
+ <a class="hidden" href='#' onclick='return false;' id="question_4"/>&nbsp;</a>
+</td>
+<td class="bLight" align="RIGHT" colspan="5" nowrap valign="middle" > </td>
+</tr>
+<tr>
+<td class="reviewTestSubCellForIconBig" valign="top" align="center" rowspan="2"><img id="gs_q4" src="/images/ci/icons/grade-correct_u.gif" alt="Correct" title="Correct"></td>
+<td colspan=2 valign="top" width="100%"><div class="vtbegenerated inlineVtbegenerated">Which of the following drugs is NOT a sedative-hypnotic?</div>
+</td>
+</tr>
+<tr>
+<td colspan=2 valign="top">
+<table cellpadding=5 cellspacing=0>
+  <tr>
+        <td valign="top">
+          <span class="label">Selected Answer:</span>
+        </td>
+        <td valign="top">
+          <div class=reviewQuestionsAnswerDiv>
+            <span class="spacerImageHolder"></span><span class="answerNumLabelSpan">A.</span>
+            <span class=answerTextSpan>
+              
+<div class="vtbegenerated inlineVtbegenerated">cocaine</div>
+</span>
+          </div>
+        </td>
+      </tr>
+  <tr>
+          <td valign="top">
+      <span class="label">Answers:</span>
+      </td>
+          
+      <td valign="top">
+            <div class=reviewQuestionsAnswerDiv>
+              <span class="spacerImageHolder"></span><span class="answerNumLabelSpan">A.</span>
+              <span class=answerTextSpan>
+                
+<div class="vtbegenerated inlineVtbegenerated"><label for="mc-ans-_109871419_1_0">cocaine</label></div>
+</span>
+            </div>
+          </td>
+            
+        </tr>
+        </td>
+          
+      <tr>
+          <td></td>
+      <td valign="top">
+            <div class=reviewQuestionsAnswerDiv>
+              <span class="spacerImageHolder"></span><span class="answerNumLabelSpan">B.</span>
+              <span class=answerTextSpan>
+                
+<div class="vtbegenerated inlineVtbegenerated"><label for="mc-ans-_109871419_1_1">diazepam (Valium)</label></div>
+</span>
+            </div>
+          </td>
+            
+        </tr>
+        </td>
+          
+      <tr>
+          <td></td>
+      <td valign="top">
+            <div class=reviewQuestionsAnswerDiv>
+              <span class="spacerImageHolder"></span><span class="answerNumLabelSpan">C.</span>
+              <span class=answerTextSpan>
+                
+<div class="vtbegenerated inlineVtbegenerated"><label for="mc-ans-_109871419_1_2">secobarbital (Seconal)</label></div>
+</span>
+            </div>
+          </td>
+            
+        </tr>
+        </td>
+          
+      <tr>
+          <td></td>
+      <td valign="top">
+            <div class=reviewQuestionsAnswerDiv>
+              <span class="spacerImageHolder"></span><span class="answerNumLabelSpan">D.</span>
+              <span class=answerTextSpan>
+                
+<div class="vtbegenerated inlineVtbegenerated"><label for="mc-ans-_109871419_1_3">flunitrazepam (Rohypnol)</label></div>
+</span>
+            </div>
+          </td>
+            
+        </tr>
+        </table>
+
+
+
+</td>
+</tr>
+</table> <div class="alignPanel">        <div id="LEARNING_STANDARD_blackboard.data.qti.asi.AsiObject;_42617070_1">                </div>  </div>  
+  </div>
+
+ <div id="_109871419_1previewModule" class="moduleSample">
+ </div>
+</li>
+
+
+
+
+<li id="contentListItem:_109871420_1"	class="clearfix read">
+
+
+<div class="item clearfix contentListRightOffset" ID="_109871420_1">
+
+ <h3>
+  <span class="reorder editmode hideme"><span><img src="/images/ci/icons/generic_updown.gif" alt="" /></span></span>
+
+
+
+     Question 5
+ </h3>
+   
+ </div>
+
+<div class="contentListRight">
+  <p class="taskbuttondiv">4 out of 4 points</p>
+</div>
+
+
+<div class="details" >
+    
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+<tr>
+  <td class="bLight" nowrap valign="middle" >
+ <a class="hidden" href='#' onclick='return false;' id="question_5"/>&nbsp;</a>
+</td>
+<td class="bLight" align="RIGHT" colspan="5" nowrap valign="middle" > </td>
+</tr>
+<tr>
+<td class="reviewTestSubCellForIconBig" valign="top" align="center" rowspan="2"><img id="gs_q5" src="/images/ci/icons/grade-correct_u.gif" alt="Correct" title="Correct"></td>
+<td colspan=2 valign="top" width="100%"><div class="vtbegenerated inlineVtbegenerated">A 49-year-old male presents with confusion, sweating, and visual hallucinations. The patient's wife tells you that he is a heavy drinker and she thinks he had a seizure shortly before your arrival. This patient is MOST likely experiencing:</div>
+</td>
+</tr>
+<tr>
+<td colspan=2 valign="top">
+<table cellpadding=5 cellspacing=0>
+  <tr>
+        <td valign="top">
+          <span class="label">Selected Answer:</span>
+        </td>
+        <td valign="top">
+          <div class=reviewQuestionsAnswerDiv>
+            <span class="spacerImageHolder"></span><span class="answerNumLabelSpan">A.</span>
+            <span class=answerTextSpan>
+              
+<div class="vtbegenerated inlineVtbegenerated">DTs.</div>
+</span>
+          </div>
+        </td>
+      </tr>
+  <tr>
+          <td valign="top">
+      <span class="label">Answers:</span>
+      </td>
+          
+      <td valign="top">
+            <div class=reviewQuestionsAnswerDiv>
+              <span class="spacerImageHolder"></span><span class="answerNumLabelSpan">A.</span>
+              <span class=answerTextSpan>
+                
+<div class="vtbegenerated inlineVtbegenerated"><label for="mc-ans-_109871420_1_0">DTs.</label></div>
+</span>
+            </div>
+          </td>
+            
+        </tr>
+        </td>
+          
+      <tr>
+          <td></td>
+      <td valign="top">
+            <div class=reviewQuestionsAnswerDiv>
+              <span class="spacerImageHolder"></span><span class="answerNumLabelSpan">B.</span>
+              <span class=answerTextSpan>
+                
+<div class="vtbegenerated inlineVtbegenerated"><label for="mc-ans-_109871420_1_1">acute schizophrenia.</label></div>
+</span>
+            </div>
+          </td>
+            
+        </tr>
+        </td>
+          
+      <tr>
+          <td></td>
+      <td valign="top">
+            <div class=reviewQuestionsAnswerDiv>
+              <span class="spacerImageHolder"></span><span class="answerNumLabelSpan">C.</span>
+              <span class=answerTextSpan>
+                
+<div class="vtbegenerated inlineVtbegenerated"><label for="mc-ans-_109871420_1_2">alcohol intoxication.</label></div>
+</span>
+            </div>
+          </td>
+            
+        </tr>
+        </td>
+          
+      <tr>
+          <td></td>
+      <td valign="top">
+            <div class=reviewQuestionsAnswerDiv>
+              <span class="spacerImageHolder"></span><span class="answerNumLabelSpan">D.</span>
+              <span class=answerTextSpan>
+                
+<div class="vtbegenerated inlineVtbegenerated"><label for="mc-ans-_109871420_1_3">acute hypovolemia.</label></div>
+</span>
+            </div>
+          </td>
+            
+        </tr>
+        </table>
+
+
+
+</td>
+</tr>
+</table> <div class="alignPanel">        <div id="LEARNING_STANDARD_blackboard.data.qti.asi.AsiObject;_42617099_1">                </div>  </div>  
+  </div>
+
+ <div id="_109871420_1previewModule" class="moduleSample">
+ </div>
+</li>
+
+
+
+
+<li id="contentListItem:_109871421_1"	class="clearfix read">
+
+
+<div class="item clearfix contentListRightOffset" ID="_109871421_1">
+
+ <h3>
+  <span class="reorder editmode hideme"><span><img src="/images/ci/icons/generic_updown.gif" alt="" /></span></span>
+
+
+
+     Question 6
+ </h3>
+   
+ </div>
+
+<div class="contentListRight">
+  <p class="taskbuttondiv">4 out of 4 points</p>
+</div>
+
+
+<div class="details" >
+    
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+<tr>
+  <td class="bLight" nowrap valign="middle" >
+ <a class="hidden" href='#' onclick='return false;' id="question_6"/>&nbsp;</a>
+</td>
+<td class="bLight" align="RIGHT" colspan="5" nowrap valign="middle" > </td>
+</tr>
+<tr>
+<td class="reviewTestSubCellForIconBig" valign="top" align="center" rowspan="2"><img id="gs_q6" src="/images/ci/icons/grade-correct_u.gif" alt="Correct" title="Correct"></td>
+<td colspan=2 valign="top" width="100%"><div class="vtbegenerated inlineVtbegenerated">The MOST commonly abused drug in the United States is:</div>
+</td>
+</tr>
+<tr>
+<td colspan=2 valign="top">
+<table cellpadding=5 cellspacing=0>
+  <tr>
+        <td valign="top">
+          <span class="label">Selected Answer:</span>
+        </td>
+        <td valign="top">
+          <div class=reviewQuestionsAnswerDiv>
+            <span class="spacerImageHolder"></span><span class="answerNumLabelSpan">B.</span>
+            <span class=answerTextSpan>
+              
+<div class="vtbegenerated inlineVtbegenerated">alcohol.</div>
+</span>
+          </div>
+        </td>
+      </tr>
+  <tr>
+          <td valign="top">
+      <span class="label">Answers:</span>
+      </td>
+          
+      <td valign="top">
+            <div class=reviewQuestionsAnswerDiv>
+              <span class="spacerImageHolder"></span><span class="answerNumLabelSpan">A.</span>
+              <span class=answerTextSpan>
+                
+<div class="vtbegenerated inlineVtbegenerated"><label for="mc-ans-_109871421_1_0">cocaine.</label></div>
+</span>
+            </div>
+          </td>
+            
+        </tr>
+        </td>
+          
+      <tr>
+          <td></td>
+      <td valign="top">
+            <div class=reviewQuestionsAnswerDiv>
+              <span class="spacerImageHolder"></span><span class="answerNumLabelSpan">B.</span>
+              <span class=answerTextSpan>
+                
+<div class="vtbegenerated inlineVtbegenerated"><label for="mc-ans-_109871421_1_1">alcohol.</label></div>
+</span>
+            </div>
+          </td>
+            
+        </tr>
+        </td>
+          
+      <tr>
+          <td></td>
+      <td valign="top">
+            <div class=reviewQuestionsAnswerDiv>
+              <span class="spacerImageHolder"></span><span class="answerNumLabelSpan">C.</span>
+              <span class=answerTextSpan>
+                
+<div class="vtbegenerated inlineVtbegenerated"><label for="mc-ans-_109871421_1_2">codeine.</label></div>
+</span>
+            </div>
+          </td>
+            
+        </tr>
+        </td>
+          
+      <tr>
+          <td></td>
+      <td valign="top">
+            <div class=reviewQuestionsAnswerDiv>
+              <span class="spacerImageHolder"></span><span class="answerNumLabelSpan">D.</span>
+              <span class=answerTextSpan>
+                
+<div class="vtbegenerated inlineVtbegenerated"><label for="mc-ans-_109871421_1_3">marijuana.</label></div>
+</span>
+            </div>
+          </td>
+            
+        </tr>
+        </table>
+
+
+
+</td>
+</tr>
+</table> <div class="alignPanel">        <div id="LEARNING_STANDARD_blackboard.data.qti.asi.AsiObject;_42617095_1">                </div>  </div>  
+  </div>
+
+ <div id="_109871421_1previewModule" class="moduleSample">
+ </div>
+</li>
+
+
+
+
+<li id="contentListItem:_109871422_1"	class="clearfix read">
+
+
+<div class="item clearfix contentListRightOffset" ID="_109871422_1">
+
+ <h3>
+  <span class="reorder editmode hideme"><span><img src="/images/ci/icons/generic_updown.gif" alt="" /></span></span>
+
+
+
+     Question 7
+ </h3>
+   
+ </div>
+
+<div class="contentListRight">
+  <p class="taskbuttondiv">4 out of 4 points</p>
+</div>
+
+
+<div class="details" >
+    
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+<tr>
+  <td class="bLight" nowrap valign="middle" >
+ <a class="hidden" href='#' onclick='return false;' id="question_7"/>&nbsp;</a>
+</td>
+<td class="bLight" align="RIGHT" colspan="5" nowrap valign="middle" > </td>
+</tr>
+<tr>
+<td class="reviewTestSubCellForIconBig" valign="top" align="center" rowspan="2"><img id="gs_q7" src="/images/ci/icons/grade-correct_u.gif" alt="Correct" title="Correct"></td>
+<td colspan=2 valign="top" width="100%"><div class="vtbegenerated inlineVtbegenerated">Law enforcement personnel request your assistance for a 30-year-old man who they pulled over for erratic driving. The patient became acutely violent while he was being questioned, which required one of the officers to subdue him with a Taser. When you arrive and assess the patient, you find that he is very agitated and is experiencing apparent hallucinations. His skin is flushed and diaphoretic. You should:</div>
+</td>
+</tr>
+<tr>
+<td colspan=2 valign="top">
+<table cellpadding=5 cellspacing=0>
+  <tr>
+        <td valign="top">
+          <span class="label">Selected Answer:</span>
+        </td>
+        <td valign="top">
+          <div class=reviewQuestionsAnswerDiv>
+            <span class="spacerImageHolder"></span><span class="answerNumLabelSpan">B.</span>
+            <span class=answerTextSpan>
+              
+<div class="vtbegenerated inlineVtbegenerated">limit physical contact with the patient as much as possible and avoid interrupting him if he is attempting to communicate with you.</div>
+</span>
+          </div>
+        </td>
+      </tr>
+  <tr>
+          <td valign="top">
+      <span class="label">Answers:</span>
+      </td>
+          
+      <td valign="top">
+            <div class=reviewQuestionsAnswerDiv>
+              <span class="spacerImageHolder"></span><span class="answerNumLabelSpan">A.</span>
+              <span class=answerTextSpan>
+                
+<div class="vtbegenerated inlineVtbegenerated"><label for="mc-ans-_109871422_1_0">quickly rule out any life-threatening conditions and then perform a detailed secondary assessment as he is being restrained.</label></div>
+</span>
+            </div>
+          </td>
+            
+        </tr>
+        </td>
+          
+      <tr>
+          <td></td>
+      <td valign="top">
+            <div class=reviewQuestionsAnswerDiv>
+              <span class="spacerImageHolder"></span><span class="answerNumLabelSpan">B.</span>
+              <span class=answerTextSpan>
+                
+<div class="vtbegenerated inlineVtbegenerated"><label for="mc-ans-_109871422_1_1">limit physical contact with the patient as much as possible and avoid interrupting him if he is attempting to communicate with you.</label></div>
+</span>
+            </div>
+          </td>
+            
+        </tr>
+        </td>
+          
+      <tr>
+          <td></td>
+      <td valign="top">
+            <div class=reviewQuestionsAnswerDiv>
+              <span class="spacerImageHolder"></span><span class="answerNumLabelSpan">C.</span>
+              <span class=answerTextSpan>
+                
+<div class="vtbegenerated inlineVtbegenerated"><label for="mc-ans-_109871422_1_2">recognize that he is experiencing a complex psychiatric crisis, quickly load him into the ambulance, and transport without delay.</label></div>
+</span>
+            </div>
+          </td>
+            
+        </tr>
+        </td>
+          
+      <tr>
+          <td></td>
+      <td valign="top">
+            <div class=reviewQuestionsAnswerDiv>
+              <span class="spacerImageHolder"></span><span class="answerNumLabelSpan">D.</span>
+              <span class=answerTextSpan>
+                
+<div class="vtbegenerated inlineVtbegenerated"><label for="mc-ans-_109871422_1_3">suspect that he is acutely hypoglycemic, consider giving him one tube of oral glucose, and transport with lights and siren.</label></div>
+</span>
+            </div>
+          </td>
+            
+        </tr>
+        </table>
+
+
+
+</td>
+</tr>
+</table> <div class="alignPanel">        <div id="LEARNING_STANDARD_blackboard.data.qti.asi.AsiObject;_42619600_1">                </div>  </div>  
+  </div>
+
+ <div id="_109871422_1previewModule" class="moduleSample">
+ </div>
+</li>
+
+
+
+
+<li id="contentListItem:_109871423_1"	class="clearfix read">
+
+
+<div class="item clearfix contentListRightOffset" ID="_109871423_1">
+
+ <h3>
+  <span class="reorder editmode hideme"><span><img src="/images/ci/icons/generic_updown.gif" alt="" /></span></span>
+
+
+
+     Question 8
+ </h3>
+   
+ </div>
+
+<div class="contentListRight">
+  <p class="taskbuttondiv">4 out of 4 points</p>
+</div>
+
+
+<div class="details" >
+    
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+<tr>
+  <td class="bLight" nowrap valign="middle" >
+ <a class="hidden" href='#' onclick='return false;' id="question_8"/>&nbsp;</a>
+</td>
+<td class="bLight" align="RIGHT" colspan="5" nowrap valign="middle" > </td>
+</tr>
+<tr>
+<td class="reviewTestSubCellForIconBig" valign="top" align="center" rowspan="2"><img id="gs_q8" src="/images/ci/icons/grade-correct_u.gif" alt="Correct" title="Correct"></td>
+<td colspan=2 valign="top" width="100%"><div class="vtbegenerated inlineVtbegenerated">As you enter the residence of a patient who has possibly overdosed, you should:</div>
+</td>
+</tr>
+<tr>
+<td colspan=2 valign="top">
+<table cellpadding=5 cellspacing=0>
+  <tr>
+        <td valign="top">
+          <span class="label">Selected Answer:</span>
+        </td>
+        <td valign="top">
+          <div class=reviewQuestionsAnswerDiv>
+            <span class="spacerImageHolder"></span><span class="answerNumLabelSpan">D.</span>
+            <span class=answerTextSpan>
+              
+<div class="vtbegenerated inlineVtbegenerated">be alert for personal hazards.</div>
+</span>
+          </div>
+        </td>
+      </tr>
+  <tr>
+          <td valign="top">
+      <span class="label">Answers:</span>
+      </td>
+          
+      <td valign="top">
+            <div class=reviewQuestionsAnswerDiv>
+              <span class="spacerImageHolder"></span><span class="answerNumLabelSpan">A.</span>
+              <span class=answerTextSpan>
+                
+<div class="vtbegenerated inlineVtbegenerated"><label for="mc-ans-_109871423_1_0">look for drug paraphernalia.</label></div>
+</span>
+            </div>
+          </td>
+            
+        </tr>
+        </td>
+          
+      <tr>
+          <td></td>
+      <td valign="top">
+            <div class=reviewQuestionsAnswerDiv>
+              <span class="spacerImageHolder"></span><span class="answerNumLabelSpan">B.</span>
+              <span class=answerTextSpan>
+                
+<div class="vtbegenerated inlineVtbegenerated"><label for="mc-ans-_109871423_1_1">observe the scene for drug bottles.</label></div>
+</span>
+            </div>
+          </td>
+            
+        </tr>
+        </td>
+          
+      <tr>
+          <td></td>
+      <td valign="top">
+            <div class=reviewQuestionsAnswerDiv>
+              <span class="spacerImageHolder"></span><span class="answerNumLabelSpan">C.</span>
+              <span class=answerTextSpan>
+                
+<div class="vtbegenerated inlineVtbegenerated"><label for="mc-ans-_109871423_1_2">quickly gain access to the patient.</label></div>
+</span>
+            </div>
+          </td>
+            
+        </tr>
+        </td>
+          
+      <tr>
+          <td></td>
+      <td valign="top">
+            <div class=reviewQuestionsAnswerDiv>
+              <span class="spacerImageHolder"></span><span class="answerNumLabelSpan">D.</span>
+              <span class=answerTextSpan>
+                
+<div class="vtbegenerated inlineVtbegenerated"><label for="mc-ans-_109871423_1_3">be alert for personal hazards.</label></div>
+</span>
+            </div>
+          </td>
+            
+        </tr>
+        </table>
+
+
+
+</td>
+</tr>
+</table> <div class="alignPanel">        <div id="LEARNING_STANDARD_blackboard.data.qti.asi.AsiObject;_42617082_1">                </div>  </div>  
+  </div>
+
+ <div id="_109871423_1previewModule" class="moduleSample">
+ </div>
+</li>
+
+
+
+
+<li id="contentListItem:_109871424_1"	class="clearfix read">
+
+
+<div class="item clearfix contentListRightOffset" ID="_109871424_1">
+
+ <h3>
+  <span class="reorder editmode hideme"><span><img src="/images/ci/icons/generic_updown.gif" alt="" /></span></span>
+
+
+
+     Question 9
+ </h3>
+   
+ </div>
+
+<div class="contentListRight">
+  <p class="taskbuttondiv">4 out of 4 points</p>
+</div>
+
+
+<div class="details" >
+    
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+<tr>
+  <td class="bLight" nowrap valign="middle" >
+ <a class="hidden" href='#' onclick='return false;' id="question_9"/>&nbsp;</a>
+</td>
+<td class="bLight" align="RIGHT" colspan="5" nowrap valign="middle" > </td>
+</tr>
+<tr>
+<td class="reviewTestSubCellForIconBig" valign="top" align="center" rowspan="2"><img id="gs_q9" src="/images/ci/icons/grade-correct_u.gif" alt="Correct" title="Correct"></td>
+<td colspan=2 valign="top" width="100%"><div class="vtbegenerated inlineVtbegenerated">Syrup of ipecac is no longer recommended to treat patients who have ingested a poisonous substance because it:</div>
+</td>
+</tr>
+<tr>
+<td colspan=2 valign="top">
+<table cellpadding=5 cellspacing=0>
+  <tr>
+        <td valign="top">
+          <span class="label">Selected Answer:</span>
+        </td>
+        <td valign="top">
+          <div class=reviewQuestionsAnswerDiv>
+            <span class="spacerImageHolder"></span><span class="answerNumLabelSpan">B.</span>
+            <span class=answerTextSpan>
+              
+<div class="vtbegenerated inlineVtbegenerated">may result in aspiration of vomitus.</div>
+</span>
+          </div>
+        </td>
+      </tr>
+  <tr>
+          <td valign="top">
+      <span class="label">Answers:</span>
+      </td>
+          
+      <td valign="top">
+            <div class=reviewQuestionsAnswerDiv>
+              <span class="spacerImageHolder"></span><span class="answerNumLabelSpan">A.</span>
+              <span class=answerTextSpan>
+                
+<div class="vtbegenerated inlineVtbegenerated"><label for="mc-ans-_109871424_1_0">has been linked to hypotension.</label></div>
+</span>
+            </div>
+          </td>
+            
+        </tr>
+        </td>
+          
+      <tr>
+          <td></td>
+      <td valign="top">
+            <div class=reviewQuestionsAnswerDiv>
+              <span class="spacerImageHolder"></span><span class="answerNumLabelSpan">B.</span>
+              <span class=answerTextSpan>
+                
+<div class="vtbegenerated inlineVtbegenerated"><label for="mc-ans-_109871424_1_1">may result in aspiration of vomitus.</label></div>
+</span>
+            </div>
+          </td>
+            
+        </tr>
+        </td>
+          
+      <tr>
+          <td></td>
+      <td valign="top">
+            <div class=reviewQuestionsAnswerDiv>
+              <span class="spacerImageHolder"></span><span class="answerNumLabelSpan">C.</span>
+              <span class=answerTextSpan>
+                
+<div class="vtbegenerated inlineVtbegenerated"><label for="mc-ans-_109871424_1_2">has toxic effects on the myocardium.</label></div>
+</span>
+            </div>
+          </td>
+            
+        </tr>
+        </td>
+          
+      <tr>
+          <td></td>
+      <td valign="top">
+            <div class=reviewQuestionsAnswerDiv>
+              <span class="spacerImageHolder"></span><span class="answerNumLabelSpan">D.</span>
+              <span class=answerTextSpan>
+                
+<div class="vtbegenerated inlineVtbegenerated"><label for="mc-ans-_109871424_1_3">does not effectively induce vomiting.</label></div>
+</span>
+            </div>
+          </td>
+            
+        </tr>
+        </table>
+
+
+
+</td>
+</tr>
+</table> <div class="alignPanel">        <div id="LEARNING_STANDARD_blackboard.data.qti.asi.AsiObject;_42617079_1">                </div>  </div>  
+  </div>
+
+ <div id="_109871424_1previewModule" class="moduleSample">
+ </div>
+</li>
+
+
+
+
+<li id="contentListItem:_109871425_1"	class="clearfix read">
+
+
+<div class="item clearfix contentListRightOffset" ID="_109871425_1">
+
+ <h3>
+  <span class="reorder editmode hideme"><span><img src="/images/ci/icons/generic_updown.gif" alt="" /></span></span>
+
+
+
+     Question 10
+ </h3>
+   
+ </div>
+
+<div class="contentListRight">
+  <p class="taskbuttondiv">4 out of 4 points</p>
+</div>
+
+
+<div class="details" >
+    
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+<tr>
+  <td class="bLight" nowrap valign="middle" >
+ <a class="hidden" href='#' onclick='return false;' id="question_10"/>&nbsp;</a>
+</td>
+<td class="bLight" align="RIGHT" colspan="5" nowrap valign="middle" > </td>
+</tr>
+<tr>
+<td class="reviewTestSubCellForIconBig" valign="top" align="center" rowspan="2"><img id="gs_q10" src="/images/ci/icons/grade-correct_u.gif" alt="Correct" title="Correct"></td>
+<td colspan=2 valign="top" width="100%"><div class="vtbegenerated inlineVtbegenerated">A 4-year-old male ingested an unknown quantity of acetaminophen (Tylenol). The child's mother states that the ingestion occurred approximately 20 minutes ago. The child is conscious and alert and in no apparent distress. After contacting medical control, you should:</div>
+</td>
+</tr>
+<tr>
+<td colspan=2 valign="top">
+<table cellpadding=5 cellspacing=0>
+  <tr>
+        <td valign="top">
+          <span class="label">Selected Answer:</span>
+        </td>
+        <td valign="top">
+          <div class=reviewQuestionsAnswerDiv>
+            <span class="spacerImageHolder"></span><span class="answerNumLabelSpan">C.</span>
+            <span class=answerTextSpan>
+              
+<div class="vtbegenerated inlineVtbegenerated">administer up to 25 g of activated charcoal.</div>
+</span>
+          </div>
+        </td>
+      </tr>
+  <tr>
+          <td valign="top">
+      <span class="label">Answers:</span>
+      </td>
+          
+      <td valign="top">
+            <div class=reviewQuestionsAnswerDiv>
+              <span class="spacerImageHolder"></span><span class="answerNumLabelSpan">A.</span>
+              <span class=answerTextSpan>
+                
+<div class="vtbegenerated inlineVtbegenerated"><label for="mc-ans-_109871425_1_0">give the child cold milk to absorb the Tylenol.</label></div>
+</span>
+            </div>
+          </td>
+            
+        </tr>
+        </td>
+          
+      <tr>
+          <td></td>
+      <td valign="top">
+            <div class=reviewQuestionsAnswerDiv>
+              <span class="spacerImageHolder"></span><span class="answerNumLabelSpan">B.</span>
+              <span class=answerTextSpan>
+                
+<div class="vtbegenerated inlineVtbegenerated"><label for="mc-ans-_109871425_1_1">induce vomiting with syrup of ipecac.</label></div>
+</span>
+            </div>
+          </td>
+            
+        </tr>
+        </td>
+          
+      <tr>
+          <td></td>
+      <td valign="top">
+            <div class=reviewQuestionsAnswerDiv>
+              <span class="spacerImageHolder"></span><span class="answerNumLabelSpan">C.</span>
+              <span class=answerTextSpan>
+                
+<div class="vtbegenerated inlineVtbegenerated"><label for="mc-ans-_109871425_1_2">administer up to 25 g of activated charcoal.</label></div>
+</span>
+            </div>
+          </td>
+            
+        </tr>
+        </td>
+          
+      <tr>
+          <td></td>
+      <td valign="top">
+            <div class=reviewQuestionsAnswerDiv>
+              <span class="spacerImageHolder"></span><span class="answerNumLabelSpan">D.</span>
+              <span class=answerTextSpan>
+                
+<div class="vtbegenerated inlineVtbegenerated"><label for="mc-ans-_109871425_1_3">transport the child for definitive care.</label></div>
+</span>
+            </div>
+          </td>
+            
+        </tr>
+        </table>
+
+
+
+</td>
+</tr>
+</table> <div class="alignPanel">        <div id="LEARNING_STANDARD_blackboard.data.qti.asi.AsiObject;_42617090_1">                </div>  </div>  
+  </div>
+
+ <div id="_109871425_1previewModule" class="moduleSample">
+ </div>
+</li>
+
+
+
+
+<li id="contentListItem:_109871426_1"	class="clearfix read">
+
+
+<div class="item clearfix contentListRightOffset" ID="_109871426_1">
+
+ <h3>
+  <span class="reorder editmode hideme"><span><img src="/images/ci/icons/generic_updown.gif" alt="" /></span></span>
+
+
+
+     Question 11
+ </h3>
+   
+ </div>
+
+<div class="contentListRight">
+  <p class="taskbuttondiv">4 out of 4 points</p>
+</div>
+
+
+<div class="details" >
+    
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+<tr>
+  <td class="bLight" nowrap valign="middle" >
+ <a class="hidden" href='#' onclick='return false;' id="question_11"/>&nbsp;</a>
+</td>
+<td class="bLight" align="RIGHT" colspan="5" nowrap valign="middle" > </td>
+</tr>
+<tr>
+<td class="reviewTestSubCellForIconBig" valign="top" align="center" rowspan="2"><img id="gs_q11" src="/images/ci/icons/grade-correct_u.gif" alt="Correct" title="Correct"></td>
+<td colspan=2 valign="top" width="100%"><div class="vtbegenerated inlineVtbegenerated">You are assessing a 45-year-old female who is severely depressed. She states that it seems as though her entire world is crashing down around her. She further states that she has had frequent thoughts of suicide, but is not sure if she can actually go through with it. How should you manage this situation?</div>
+</td>
+</tr>
+<tr>
+<td colspan=2 valign="top">
+<table cellpadding=5 cellspacing=0>
+  <tr>
+        <td valign="top">
+          <span class="label">Selected Answer:</span>
+        </td>
+        <td valign="top">
+          <div class=reviewQuestionsAnswerDiv>
+            <span class="spacerImageHolder"></span><span class="answerNumLabelSpan">A.</span>
+            <span class=answerTextSpan>
+              
+<div class="vtbegenerated inlineVtbegenerated">Ask the patient if she has developed a suicidal plan.</div>
+</span>
+          </div>
+        </td>
+      </tr>
+  <tr>
+          <td valign="top">
+      <span class="label">Answers:</span>
+      </td>
+          
+      <td valign="top">
+            <div class=reviewQuestionsAnswerDiv>
+              <span class="spacerImageHolder"></span><span class="answerNumLabelSpan">A.</span>
+              <span class=answerTextSpan>
+                
+<div class="vtbegenerated inlineVtbegenerated"><label for="mc-ans-_109871426_1_0">Ask the patient if she has developed a suicidal plan.</label></div>
+</span>
+            </div>
+          </td>
+            
+        </tr>
+        </td>
+          
+      <tr>
+          <td></td>
+      <td valign="top">
+            <div class=reviewQuestionsAnswerDiv>
+              <span class="spacerImageHolder"></span><span class="answerNumLabelSpan">B.</span>
+              <span class=answerTextSpan>
+                
+<div class="vtbegenerated inlineVtbegenerated"><label for="mc-ans-_109871426_1_1">Have law enforcement place her in protective custody.</label></div>
+</span>
+            </div>
+          </td>
+            
+        </tr>
+        </td>
+          
+      <tr>
+          <td></td>
+      <td valign="top">
+            <div class=reviewQuestionsAnswerDiv>
+              <span class="spacerImageHolder"></span><span class="answerNumLabelSpan">C.</span>
+              <span class=answerTextSpan>
+                
+<div class="vtbegenerated inlineVtbegenerated"><label for="mc-ans-_109871426_1_2">Leave the scene and have a neighbor check in on her.</label></div>
+</span>
+            </div>
+          </td>
+            
+        </tr>
+        </td>
+          
+      <tr>
+          <td></td>
+      <td valign="top">
+            <div class=reviewQuestionsAnswerDiv>
+              <span class="spacerImageHolder"></span><span class="answerNumLabelSpan">D.</span>
+              <span class=answerTextSpan>
+                
+<div class="vtbegenerated inlineVtbegenerated"><label for="mc-ans-_109871426_1_3">Encourage the patient to remain quiet during transport.</label></div>
+</span>
+            </div>
+          </td>
+            
+        </tr>
+        </table>
+
+
+
+</td>
+</tr>
+</table> <div class="alignPanel">        <div id="LEARNING_STANDARD_blackboard.data.qti.asi.AsiObject;_42619596_1">                </div>  </div>  
+  </div>
+
+ <div id="_109871426_1previewModule" class="moduleSample">
+ </div>
+</li>
+
+
+
+
+<li id="contentListItem:_109871427_1"	class="clearfix read">
+
+
+<div class="item clearfix contentListRightOffset" ID="_109871427_1">
+
+ <h3>
+  <span class="reorder editmode hideme"><span><img src="/images/ci/icons/generic_updown.gif" alt="" /></span></span>
+
+
+
+     Question 12
+ </h3>
+   
+ </div>
+
+<div class="contentListRight">
+  <p class="taskbuttondiv">4 out of 4 points</p>
+</div>
+
+
+<div class="details" >
+    
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+<tr>
+  <td class="bLight" nowrap valign="middle" >
+ <a class="hidden" href='#' onclick='return false;' id="question_12"/>&nbsp;</a>
+</td>
+<td class="bLight" align="RIGHT" colspan="5" nowrap valign="middle" > </td>
+</tr>
+<tr>
+<td class="reviewTestSubCellForIconBig" valign="top" align="center" rowspan="2"><img id="gs_q12" src="/images/ci/icons/grade-correct_u.gif" alt="Correct" title="Correct"></td>
+<td colspan=2 valign="top" width="100%"><div class="vtbegenerated inlineVtbegenerated">The physical examination of a sexual assault victim should be:</div>
+</td>
+</tr>
+<tr>
+<td colspan=2 valign="top">
+<table cellpadding=5 cellspacing=0>
+  <tr>
+        <td valign="top">
+          <span class="label">Selected Answer:</span>
+        </td>
+        <td valign="top">
+          <div class=reviewQuestionsAnswerDiv>
+            <span class="spacerImageHolder"></span><span class="answerNumLabelSpan">D.</span>
+            <span class=answerTextSpan>
+              
+<div class="vtbegenerated inlineVtbegenerated">limited to a brief survey for life-threatening injuries.</div>
+</span>
+          </div>
+        </td>
+      </tr>
+  <tr>
+          <td valign="top">
+      <span class="label">Answers:</span>
+      </td>
+          
+      <td valign="top">
+            <div class=reviewQuestionsAnswerDiv>
+              <span class="spacerImageHolder"></span><span class="answerNumLabelSpan">A.</span>
+              <span class=answerTextSpan>
+                
+<div class="vtbegenerated inlineVtbegenerated"><label for="mc-ans-_109871427_1_0">as detailed as possible so all injuries can be documented.</label></div>
+</span>
+            </div>
+          </td>
+            
+        </tr>
+        </td>
+          
+      <tr>
+          <td></td>
+      <td valign="top">
+            <div class=reviewQuestionsAnswerDiv>
+              <span class="spacerImageHolder"></span><span class="answerNumLabelSpan">B.</span>
+              <span class=answerTextSpan>
+                
+<div class="vtbegenerated inlineVtbegenerated"><label for="mc-ans-_109871427_1_1">performed in the presence of at least two police officers.</label></div>
+</span>
+            </div>
+          </td>
+            
+        </tr>
+        </td>
+          
+      <tr>
+          <td></td>
+      <td valign="top">
+            <div class=reviewQuestionsAnswerDiv>
+              <span class="spacerImageHolder"></span><span class="answerNumLabelSpan">C.</span>
+              <span class=answerTextSpan>
+                
+<div class="vtbegenerated inlineVtbegenerated"><label for="mc-ans-_109871427_1_2">deferred until the patient can be evaluated by a physician.</label></div>
+</span>
+            </div>
+          </td>
+            
+        </tr>
+        </td>
+          
+      <tr>
+          <td></td>
+      <td valign="top">
+            <div class=reviewQuestionsAnswerDiv>
+              <span class="spacerImageHolder"></span><span class="answerNumLabelSpan">D.</span>
+              <span class=answerTextSpan>
+                
+<div class="vtbegenerated inlineVtbegenerated"><label for="mc-ans-_109871427_1_3">limited to a brief survey for life-threatening injuries.</label></div>
+</span>
+            </div>
+          </td>
+            
+        </tr>
+        </table>
+
+
+
+</td>
+</tr>
+</table> <div class="alignPanel">        <div id="LEARNING_STANDARD_blackboard.data.qti.asi.AsiObject;_42617171_1">                </div>  </div>  
+  </div>
+
+ <div id="_109871427_1previewModule" class="moduleSample">
+ </div>
+</li>
+
+
+
+
+<li id="contentListItem:_109871428_1"	class="clearfix read">
+
+
+<div class="item clearfix contentListRightOffset" ID="_109871428_1">
+
+ <h3>
+  <span class="reorder editmode hideme"><span><img src="/images/ci/icons/generic_updown.gif" alt="" /></span></span>
+
+
+
+     Question 13
+ </h3>
+   
+ </div>
+
+<div class="contentListRight">
+  <p class="taskbuttondiv">4 out of 4 points</p>
+</div>
+
+
+<div class="details" >
+    
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+<tr>
+  <td class="bLight" nowrap valign="middle" >
+ <a class="hidden" href='#' onclick='return false;' id="question_13"/>&nbsp;</a>
+</td>
+<td class="bLight" align="RIGHT" colspan="5" nowrap valign="middle" > </td>
+</tr>
+<tr>
+<td class="reviewTestSubCellForIconBig" valign="top" align="center" rowspan="2"><img id="gs_q13" src="/images/ci/icons/grade-correct_u.gif" alt="Correct" title="Correct"></td>
+<td colspan=2 valign="top" width="100%"><div class="vtbegenerated inlineVtbegenerated">Which of the following is an example of a functional behavioral disorder?</div>
+</td>
+</tr>
+<tr>
+<td colspan=2 valign="top">
+<table cellpadding=5 cellspacing=0>
+  <tr>
+        <td valign="top">
+          <span class="label">Selected Answer:</span>
+        </td>
+        <td valign="top">
+          <div class=reviewQuestionsAnswerDiv>
+            <span class="spacerImageHolder"></span><span class="answerNumLabelSpan">D.</span>
+            <span class=answerTextSpan>
+              
+<div class="vtbegenerated inlineVtbegenerated">schizophrenia</div>
+</span>
+          </div>
+        </td>
+      </tr>
+  <tr>
+          <td valign="top">
+      <span class="label">Answers:</span>
+      </td>
+          
+      <td valign="top">
+            <div class=reviewQuestionsAnswerDiv>
+              <span class="spacerImageHolder"></span><span class="answerNumLabelSpan">A.</span>
+              <span class=answerTextSpan>
+                
+<div class="vtbegenerated inlineVtbegenerated"><label for="mc-ans-_109871428_1_0">head trauma</label></div>
+</span>
+            </div>
+          </td>
+            
+        </tr>
+        </td>
+          
+      <tr>
+          <td></td>
+      <td valign="top">
+            <div class=reviewQuestionsAnswerDiv>
+              <span class="spacerImageHolder"></span><span class="answerNumLabelSpan">B.</span>
+              <span class=answerTextSpan>
+                
+<div class="vtbegenerated inlineVtbegenerated"><label for="mc-ans-_109871428_1_1">drug addiction</label></div>
+</span>
+            </div>
+          </td>
+            
+        </tr>
+        </td>
+          
+      <tr>
+          <td></td>
+      <td valign="top">
+            <div class=reviewQuestionsAnswerDiv>
+              <span class="spacerImageHolder"></span><span class="answerNumLabelSpan">C.</span>
+              <span class=answerTextSpan>
+                
+<div class="vtbegenerated inlineVtbegenerated"><label for="mc-ans-_109871428_1_2">Alzheimer's disease</label></div>
+</span>
+            </div>
+          </td>
+            
+        </tr>
+        </td>
+          
+      <tr>
+          <td></td>
+      <td valign="top">
+            <div class=reviewQuestionsAnswerDiv>
+              <span class="spacerImageHolder"></span><span class="answerNumLabelSpan">D.</span>
+              <span class=answerTextSpan>
+                
+<div class="vtbegenerated inlineVtbegenerated"><label for="mc-ans-_109871428_1_3">schizophrenia</label></div>
+</span>
+            </div>
+          </td>
+            
+        </tr>
+        </table>
+
+
+
+</td>
+</tr>
+</table> <div class="alignPanel">        <div id="LEARNING_STANDARD_blackboard.data.qti.asi.AsiObject;_42619581_1">                </div>  </div>  
+  </div>
+
+ <div id="_109871428_1previewModule" class="moduleSample">
+ </div>
+</li>
+
+
+
+
+<li id="contentListItem:_109871429_1"	class="clearfix read">
+
+
+<div class="item clearfix contentListRightOffset" ID="_109871429_1">
+
+ <h3>
+  <span class="reorder editmode hideme"><span><img src="/images/ci/icons/generic_updown.gif" alt="" /></span></span>
+
+
+
+     Question 14
+ </h3>
+   
+ </div>
+
+<div class="contentListRight">
+  <p class="taskbuttondiv">4 out of 4 points</p>
+</div>
+
+
+<div class="details" >
+    
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+<tr>
+  <td class="bLight" nowrap valign="middle" >
+ <a class="hidden" href='#' onclick='return false;' id="question_14"/>&nbsp;</a>
+</td>
+<td class="bLight" align="RIGHT" colspan="5" nowrap valign="middle" > </td>
+</tr>
+<tr>
+<td class="reviewTestSubCellForIconBig" valign="top" align="center" rowspan="2"><img id="gs_q14" src="/images/ci/icons/grade-correct_u.gif" alt="Correct" title="Correct"></td>
+<td colspan=2 valign="top" width="100%"><div class="vtbegenerated inlineVtbegenerated">General guidelines for managing a patient with a behavioral emergency include:</div>
+</td>
+</tr>
+<tr>
+<td colspan=2 valign="top">
+<table cellpadding=5 cellspacing=0>
+  <tr>
+        <td valign="top">
+          <span class="label">Selected Answer:</span>
+        </td>
+        <td valign="top">
+          <div class=reviewQuestionsAnswerDiv>
+            <span class="spacerImageHolder"></span><span class="answerNumLabelSpan">C.</span>
+            <span class=answerTextSpan>
+              
+<div class="vtbegenerated inlineVtbegenerated">being prepared to spend extra time with the patient.</div>
+</span>
+          </div>
+        </td>
+      </tr>
+  <tr>
+          <td valign="top">
+      <span class="label">Answers:</span>
+      </td>
+          
+      <td valign="top">
+            <div class=reviewQuestionsAnswerDiv>
+              <span class="spacerImageHolder"></span><span class="answerNumLabelSpan">A.</span>
+              <span class=answerTextSpan>
+                
+<div class="vtbegenerated inlineVtbegenerated"><label for="mc-ans-_109871429_1_0">placing the patient between yourself and an exit.</label></div>
+</span>
+            </div>
+          </td>
+            
+        </tr>
+        </td>
+          
+      <tr>
+          <td></td>
+      <td valign="top">
+            <div class=reviewQuestionsAnswerDiv>
+              <span class="spacerImageHolder"></span><span class="answerNumLabelSpan">B.</span>
+              <span class=answerTextSpan>
+                
+<div class="vtbegenerated inlineVtbegenerated"><label for="mc-ans-_109871429_1_1">firmly identifying yourself as an EMS provider.</label></div>
+</span>
+            </div>
+          </td>
+            
+        </tr>
+        </td>
+          
+      <tr>
+          <td></td>
+      <td valign="top">
+            <div class=reviewQuestionsAnswerDiv>
+              <span class="spacerImageHolder"></span><span class="answerNumLabelSpan">C.</span>
+              <span class=answerTextSpan>
+                
+<div class="vtbegenerated inlineVtbegenerated"><label for="mc-ans-_109871429_1_2">being prepared to spend extra time with the patient.</label></div>
+</span>
+            </div>
+          </td>
+            
+        </tr>
+        </td>
+          
+      <tr>
+          <td></td>
+      <td valign="top">
+            <div class=reviewQuestionsAnswerDiv>
+              <span class="spacerImageHolder"></span><span class="answerNumLabelSpan">D.</span>
+              <span class=answerTextSpan>
+                
+<div class="vtbegenerated inlineVtbegenerated"><label for="mc-ans-_109871429_1_3">allowing the patient to be alone if he or she wishes.</label></div>
+</span>
+            </div>
+          </td>
+            
+        </tr>
+        </table>
+
+
+
+</td>
+</tr>
+</table> <div class="alignPanel">        <div id="LEARNING_STANDARD_blackboard.data.qti.asi.AsiObject;_42619584_1">                </div>  </div>  
+  </div>
+
+ <div id="_109871429_1previewModule" class="moduleSample">
+ </div>
+</li>
+
+
+
+
+<li id="contentListItem:_109871430_1"	class="clearfix read">
+
+
+<div class="item clearfix contentListRightOffset" ID="_109871430_1">
+
+ <h3>
+  <span class="reorder editmode hideme"><span><img src="/images/ci/icons/generic_updown.gif" alt="" /></span></span>
+
+
+
+     Question 15
+ </h3>
+   
+ </div>
+
+<div class="contentListRight">
+  <p class="taskbuttondiv">4 out of 4 points</p>
+</div>
+
+
+<div class="details" >
+    
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+<tr>
+  <td class="bLight" nowrap valign="middle" >
+ <a class="hidden" href='#' onclick='return false;' id="question_15"/>&nbsp;</a>
+</td>
+<td class="bLight" align="RIGHT" colspan="5" nowrap valign="middle" > </td>
+</tr>
+<tr>
+<td class="reviewTestSubCellForIconBig" valign="top" align="center" rowspan="2"><img id="gs_q15" src="/images/ci/icons/grade-correct_u.gif" alt="Correct" title="Correct"></td>
+<td colspan=2 valign="top" width="100%"><div class="vtbegenerated inlineVtbegenerated">Which of the following conditions or factors would be the LEAST likely to result in a change in behavior?</div>
+</td>
+</tr>
+<tr>
+<td colspan=2 valign="top">
+<table cellpadding=5 cellspacing=0>
+  <tr>
+        <td valign="top">
+          <span class="label">Selected Answer:</span>
+        </td>
+        <td valign="top">
+          <div class=reviewQuestionsAnswerDiv>
+            <span class="spacerImageHolder"></span><span class="answerNumLabelSpan">B.</span>
+            <span class=answerTextSpan>
+              
+<div class="vtbegenerated inlineVtbegenerated">antihypertensive medications</div>
+</span>
+          </div>
+        </td>
+      </tr>
+  <tr>
+          <td valign="top">
+      <span class="label">Answers:</span>
+      </td>
+          
+      <td valign="top">
+            <div class=reviewQuestionsAnswerDiv>
+              <span class="spacerImageHolder"></span><span class="answerNumLabelSpan">A.</span>
+              <span class=answerTextSpan>
+                
+<div class="vtbegenerated inlineVtbegenerated"><label for="mc-ans-_109871430_1_0">low blood glucose levels</label></div>
+</span>
+            </div>
+          </td>
+            
+        </tr>
+        </td>
+          
+      <tr>
+          <td></td>
+      <td valign="top">
+            <div class=reviewQuestionsAnswerDiv>
+              <span class="spacerImageHolder"></span><span class="answerNumLabelSpan">B.</span>
+              <span class=answerTextSpan>
+                
+<div class="vtbegenerated inlineVtbegenerated"><label for="mc-ans-_109871430_1_1">antihypertensive medications</label></div>
+</span>
+            </div>
+          </td>
+            
+        </tr>
+        </td>
+          
+      <tr>
+          <td></td>
+      <td valign="top">
+            <div class=reviewQuestionsAnswerDiv>
+              <span class="spacerImageHolder"></span><span class="answerNumLabelSpan">C.</span>
+              <span class=answerTextSpan>
+                
+<div class="vtbegenerated inlineVtbegenerated"><label for="mc-ans-_109871430_1_2">exposure to excess heat or cold</label></div>
+</span>
+            </div>
+          </td>
+            
+        </tr>
+        </td>
+          
+      <tr>
+          <td></td>
+      <td valign="top">
+            <div class=reviewQuestionsAnswerDiv>
+              <span class="spacerImageHolder"></span><span class="answerNumLabelSpan">D.</span>
+              <span class=answerTextSpan>
+                
+<div class="vtbegenerated inlineVtbegenerated"><label for="mc-ans-_109871430_1_3">inadequate blood flow to the brain</label></div>
+</span>
+            </div>
+          </td>
+            
+        </tr>
+        </table>
+
+
+
+</td>
+</tr>
+</table> <div class="alignPanel">        <div id="LEARNING_STANDARD_blackboard.data.qti.asi.AsiObject;_42619580_1">                </div>  </div>  
+  </div>
+
+ <div id="_109871430_1previewModule" class="moduleSample">
+ </div>
+</li>
+
+
+
+
+<li id="contentListItem:_109871431_1"	class="clearfix read">
+
+
+<div class="item clearfix contentListRightOffset" ID="_109871431_1">
+
+ <h3>
+  <span class="reorder editmode hideme"><span><img src="/images/ci/icons/generic_updown.gif" alt="" /></span></span>
+
+
+
+     Question 16
+ </h3>
+   
+ </div>
+
+<div class="contentListRight">
+  <p class="taskbuttondiv">4 out of 4 points</p>
+</div>
+
+
+<div class="details" >
+    
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+<tr>
+  <td class="bLight" nowrap valign="middle" >
+ <a class="hidden" href='#' onclick='return false;' id="question_16"/>&nbsp;</a>
+</td>
+<td class="bLight" align="RIGHT" colspan="5" nowrap valign="middle" > </td>
+</tr>
+<tr>
+<td class="reviewTestSubCellForIconBig" valign="top" align="center" rowspan="2"><img id="gs_q16" src="/images/ci/icons/grade-correct_u.gif" alt="Correct" title="Correct"></td>
+<td colspan=2 valign="top" width="100%"><div class="vtbegenerated inlineVtbegenerated">During your assessment of a 50-year-old male who was found unconscious in an alley, you note that he has slow, shallow respirations; significant bradycardia; facial cyanosis; and pinpoint pupils. As your partner begins assisting the patient's ventilations, he directs your attention to the patient's arms, which have multiple needle tracks on them. This patient's clinical presentation is MOST consistent with:</div>
+</td>
+</tr>
+<tr>
+<td colspan=2 valign="top">
+<table cellpadding=5 cellspacing=0>
+  <tr>
+        <td valign="top">
+          <span class="label">Selected Answer:</span>
+        </td>
+        <td valign="top">
+          <div class=reviewQuestionsAnswerDiv>
+            <span class="spacerImageHolder"></span><span class="answerNumLabelSpan">C.</span>
+            <span class=answerTextSpan>
+              
+<div class="vtbegenerated inlineVtbegenerated">a heroin overdose.</div>
+</span>
+          </div>
+        </td>
+      </tr>
+  <tr>
+          <td valign="top">
+      <span class="label">Answers:</span>
+      </td>
+          
+      <td valign="top">
+            <div class=reviewQuestionsAnswerDiv>
+              <span class="spacerImageHolder"></span><span class="answerNumLabelSpan">A.</span>
+              <span class=answerTextSpan>
+                
+<div class="vtbegenerated inlineVtbegenerated"><label for="mc-ans-_109871431_1_0">a closed head injury.</label></div>
+</span>
+            </div>
+          </td>
+            
+        </tr>
+        </td>
+          
+      <tr>
+          <td></td>
+      <td valign="top">
+            <div class=reviewQuestionsAnswerDiv>
+              <span class="spacerImageHolder"></span><span class="answerNumLabelSpan">B.</span>
+              <span class=answerTextSpan>
+                
+<div class="vtbegenerated inlineVtbegenerated"><label for="mc-ans-_109871431_1_1">alcohol intoxication.</label></div>
+</span>
+            </div>
+          </td>
+            
+        </tr>
+        </td>
+          
+      <tr>
+          <td></td>
+      <td valign="top">
+            <div class=reviewQuestionsAnswerDiv>
+              <span class="spacerImageHolder"></span><span class="answerNumLabelSpan">C.</span>
+              <span class=answerTextSpan>
+                
+<div class="vtbegenerated inlineVtbegenerated"><label for="mc-ans-_109871431_1_2">a heroin overdose.</label></div>
+</span>
+            </div>
+          </td>
+            
+        </tr>
+        </td>
+          
+      <tr>
+          <td></td>
+      <td valign="top">
+            <div class=reviewQuestionsAnswerDiv>
+              <span class="spacerImageHolder"></span><span class="answerNumLabelSpan">D.</span>
+              <span class=answerTextSpan>
+                
+<div class="vtbegenerated inlineVtbegenerated"><label for="mc-ans-_109871431_1_3">an overdose of diazepam (Valium).</label></div>
+</span>
+            </div>
+          </td>
+            
+        </tr>
+        </table>
+
+
+
+</td>
+</tr>
+</table> <div class="alignPanel">        <div id="LEARNING_STANDARD_blackboard.data.qti.asi.AsiObject;_42617100_1">                </div>  </div>  
+  </div>
+
+ <div id="_109871431_1previewModule" class="moduleSample">
+ </div>
+</li>
+
+
+
+
+<li id="contentListItem:_109871432_1"	class="clearfix read">
+
+
+<div class="item clearfix contentListRightOffset" ID="_109871432_1">
+
+ <h3>
+  <span class="reorder editmode hideme"><span><img src="/images/ci/icons/generic_updown.gif" alt="" /></span></span>
+
+
+
+     Question 17
+ </h3>
+   
+ </div>
+
+<div class="contentListRight">
+  <p class="taskbuttondiv">4 out of 4 points</p>
+</div>
+
+
+<div class="details" >
+    
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+<tr>
+  <td class="bLight" nowrap valign="middle" >
+ <a class="hidden" href='#' onclick='return false;' id="question_17"/>&nbsp;</a>
+</td>
+<td class="bLight" align="RIGHT" colspan="5" nowrap valign="middle" > </td>
+</tr>
+<tr>
+<td class="reviewTestSubCellForIconBig" valign="top" align="center" rowspan="2"><img id="gs_q17" src="/images/ci/icons/grade-correct_u.gif" alt="Correct" title="Correct"></td>
+<td colspan=2 valign="top" width="100%"><div class="vtbegenerated inlineVtbegenerated">In general, injected poisons are impossible to dilute or remove because they:</div>
+</td>
+</tr>
+<tr>
+<td colspan=2 valign="top">
+<table cellpadding=5 cellspacing=0>
+  <tr>
+        <td valign="top">
+          <span class="label">Selected Answer:</span>
+        </td>
+        <td valign="top">
+          <div class=reviewQuestionsAnswerDiv>
+            <span class="spacerImageHolder"></span><span class="answerNumLabelSpan">D.</span>
+            <span class=answerTextSpan>
+              
+<div class="vtbegenerated inlineVtbegenerated">are usually absorbed quickly into the body.</div>
+</span>
+          </div>
+        </td>
+      </tr>
+  <tr>
+          <td valign="top">
+      <span class="label">Answers:</span>
+      </td>
+          
+      <td valign="top">
+            <div class=reviewQuestionsAnswerDiv>
+              <span class="spacerImageHolder"></span><span class="answerNumLabelSpan">A.</span>
+              <span class=answerTextSpan>
+                
+<div class="vtbegenerated inlineVtbegenerated"><label for="mc-ans-_109871432_1_0">absorb slowly into the body, despite their potency.</label></div>
+</span>
+            </div>
+          </td>
+            
+        </tr>
+        </td>
+          
+      <tr>
+          <td></td>
+      <td valign="top">
+            <div class=reviewQuestionsAnswerDiv>
+              <span class="spacerImageHolder"></span><span class="answerNumLabelSpan">B.</span>
+              <span class=answerTextSpan>
+                
+<div class="vtbegenerated inlineVtbegenerated"><label for="mc-ans-_109871432_1_1">react with the blood, which increases their toxicity.</label></div>
+</span>
+            </div>
+          </td>
+            
+        </tr>
+        </td>
+          
+      <tr>
+          <td></td>
+      <td valign="top">
+            <div class=reviewQuestionsAnswerDiv>
+              <span class="spacerImageHolder"></span><span class="answerNumLabelSpan">C.</span>
+              <span class=answerTextSpan>
+                
+<div class="vtbegenerated inlineVtbegenerated"><label for="mc-ans-_109871432_1_2">are usually fatal within 30 minutes of exposure.</label></div>
+</span>
+            </div>
+          </td>
+            
+        </tr>
+        </td>
+          
+      <tr>
+          <td></td>
+      <td valign="top">
+            <div class=reviewQuestionsAnswerDiv>
+              <span class="spacerImageHolder"></span><span class="answerNumLabelSpan">D.</span>
+              <span class=answerTextSpan>
+                
+<div class="vtbegenerated inlineVtbegenerated"><label for="mc-ans-_109871432_1_3">are usually absorbed quickly into the body.</label></div>
+</span>
+            </div>
+          </td>
+            
+        </tr>
+        </table>
+
+
+
+</td>
+</tr>
+</table> <div class="alignPanel">        <div id="LEARNING_STANDARD_blackboard.data.qti.asi.AsiObject;_42617081_1">                </div>  </div>  
+  </div>
+
+ <div id="_109871432_1previewModule" class="moduleSample">
+ </div>
+</li>
+
+
+
+
+<li id="contentListItem:_109871433_1"	class="clearfix read">
+
+
+<div class="item clearfix contentListRightOffset" ID="_109871433_1">
+
+ <h3>
+  <span class="reorder editmode hideme"><span><img src="/images/ci/icons/generic_updown.gif" alt="" /></span></span>
+
+
+
+     Question 18
+ </h3>
+   
+ </div>
+
+<div class="contentListRight">
+  <p class="taskbuttondiv">4 out of 4 points</p>
+</div>
+
+
+<div class="details" >
+    
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+<tr>
+  <td class="bLight" nowrap valign="middle" >
+ <a class="hidden" href='#' onclick='return false;' id="question_18"/>&nbsp;</a>
+</td>
+<td class="bLight" align="RIGHT" colspan="5" nowrap valign="middle" > </td>
+</tr>
+<tr>
+<td class="reviewTestSubCellForIconBig" valign="top" align="center" rowspan="2"><img id="gs_q18" src="/images/ci/icons/grade-correct_u.gif" alt="Correct" title="Correct"></td>
+<td colspan=2 valign="top" width="100%"><div class="vtbegenerated inlineVtbegenerated">Activated charcoal administration is contraindicated in patients who have ingested:</div>
+</td>
+</tr>
+<tr>
+<td colspan=2 valign="top">
+<table cellpadding=5 cellspacing=0>
+  <tr>
+        <td valign="top">
+          <span class="label">Selected Answer:</span>
+        </td>
+        <td valign="top">
+          <div class=reviewQuestionsAnswerDiv>
+            <span class="spacerImageHolder"></span><span class="answerNumLabelSpan">A.</span>
+            <span class=answerTextSpan>
+              
+<div class="vtbegenerated inlineVtbegenerated">acids or alkalis.</div>
+</span>
+          </div>
+        </td>
+      </tr>
+  <tr>
+          <td valign="top">
+      <span class="label">Answers:</span>
+      </td>
+          
+      <td valign="top">
+            <div class=reviewQuestionsAnswerDiv>
+              <span class="spacerImageHolder"></span><span class="answerNumLabelSpan">A.</span>
+              <span class=answerTextSpan>
+                
+<div class="vtbegenerated inlineVtbegenerated"><label for="mc-ans-_109871433_1_0">acids or alkalis.</label></div>
+</span>
+            </div>
+          </td>
+            
+        </tr>
+        </td>
+          
+      <tr>
+          <td></td>
+      <td valign="top">
+            <div class=reviewQuestionsAnswerDiv>
+              <span class="spacerImageHolder"></span><span class="answerNumLabelSpan">B.</span>
+              <span class=answerTextSpan>
+                
+<div class="vtbegenerated inlineVtbegenerated"><label for="mc-ans-_109871433_1_1">steroid drugs.</label></div>
+</span>
+            </div>
+          </td>
+            
+        </tr>
+        </td>
+          
+      <tr>
+          <td></td>
+      <td valign="top">
+            <div class=reviewQuestionsAnswerDiv>
+              <span class="spacerImageHolder"></span><span class="answerNumLabelSpan">C.</span>
+              <span class=answerTextSpan>
+                
+<div class="vtbegenerated inlineVtbegenerated"><label for="mc-ans-_109871433_1_2">acetaminophen (Tylenol).</label></div>
+</span>
+            </div>
+          </td>
+            
+        </tr>
+        </td>
+          
+      <tr>
+          <td></td>
+      <td valign="top">
+            <div class=reviewQuestionsAnswerDiv>
+              <span class="spacerImageHolder"></span><span class="answerNumLabelSpan">D.</span>
+              <span class=answerTextSpan>
+                
+<div class="vtbegenerated inlineVtbegenerated"><label for="mc-ans-_109871433_1_3">ibuprofen.</label></div>
+</span>
+            </div>
+          </td>
+            
+        </tr>
+        </table>
+
+
+
+</td>
+</tr>
+</table> <div class="alignPanel">        <div id="LEARNING_STANDARD_blackboard.data.qti.asi.AsiObject;_42617087_1">                </div>  </div>  
+  </div>
+
+ <div id="_109871433_1previewModule" class="moduleSample">
+ </div>
+</li>
+
+
+
+
+<li id="contentListItem:_109871434_1"	class="clearfix read">
+
+
+<div class="item clearfix contentListRightOffset" ID="_109871434_1">
+
+ <h3>
+  <span class="reorder editmode hideme"><span><img src="/images/ci/icons/generic_updown.gif" alt="" /></span></span>
+
+
+
+     Question 19
+ </h3>
+   
+ </div>
+
+<div class="contentListRight">
+  <p class="taskbuttondiv">4 out of 4 points</p>
+</div>
+
+
+<div class="details" >
+    
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+<tr>
+  <td class="bLight" nowrap valign="middle" >
+ <a class="hidden" href='#' onclick='return false;' id="question_19"/>&nbsp;</a>
+</td>
+<td class="bLight" align="RIGHT" colspan="5" nowrap valign="middle" > </td>
+</tr>
+<tr>
+<td class="reviewTestSubCellForIconBig" valign="top" align="center" rowspan="2"><img id="gs_q19" src="/images/ci/icons/grade-correct_u.gif" alt="Correct" title="Correct"></td>
+<td colspan=2 valign="top" width="100%"><div class="vtbegenerated inlineVtbegenerated">When a woman presents with abdominal pain or other vague symptoms, the EMT is often unable to determine the nature of the problem until he or she:</div>
+</td>
+</tr>
+<tr>
+<td colspan=2 valign="top">
+<table cellpadding=5 cellspacing=0>
+  <tr>
+        <td valign="top">
+          <span class="label">Selected Answer:</span>
+        </td>
+        <td valign="top">
+          <div class=reviewQuestionsAnswerDiv>
+            <span class="spacerImageHolder"></span><span class="answerNumLabelSpan">B.</span>
+            <span class=answerTextSpan>
+              
+<div class="vtbegenerated inlineVtbegenerated">has gathered patient history information.</div>
+</span>
+          </div>
+        </td>
+      </tr>
+  <tr>
+          <td valign="top">
+      <span class="label">Answers:</span>
+      </td>
+          
+      <td valign="top">
+            <div class=reviewQuestionsAnswerDiv>
+              <span class="spacerImageHolder"></span><span class="answerNumLabelSpan">A.</span>
+              <span class=answerTextSpan>
+                
+<div class="vtbegenerated inlineVtbegenerated"><label for="mc-ans-_109871434_1_0">has formed a general impression of the patient.</label></div>
+</span>
+            </div>
+          </td>
+            
+        </tr>
+        </td>
+          
+      <tr>
+          <td></td>
+      <td valign="top">
+            <div class=reviewQuestionsAnswerDiv>
+              <span class="spacerImageHolder"></span><span class="answerNumLabelSpan">B.</span>
+              <span class=answerTextSpan>
+                
+<div class="vtbegenerated inlineVtbegenerated"><label for="mc-ans-_109871434_1_1">has gathered patient history information.</label></div>
+</span>
+            </div>
+          </td>
+            
+        </tr>
+        </td>
+          
+      <tr>
+          <td></td>
+      <td valign="top">
+            <div class=reviewQuestionsAnswerDiv>
+              <span class="spacerImageHolder"></span><span class="answerNumLabelSpan">C.</span>
+              <span class=answerTextSpan>
+                
+<div class="vtbegenerated inlineVtbegenerated"><label for="mc-ans-_109871434_1_2">ascertains if the patient was ever pregnant.</label></div>
+</span>
+            </div>
+          </td>
+            
+        </tr>
+        </td>
+          
+      <tr>
+          <td></td>
+      <td valign="top">
+            <div class=reviewQuestionsAnswerDiv>
+              <span class="spacerImageHolder"></span><span class="answerNumLabelSpan">D.</span>
+              <span class=answerTextSpan>
+                
+<div class="vtbegenerated inlineVtbegenerated"><label for="mc-ans-_109871434_1_3">has obtained a complete set of vital signs.</label></div>
+</span>
+            </div>
+          </td>
+            
+        </tr>
+        </table>
+
+
+
+</td>
+</tr>
+</table> <div class="alignPanel">        <div id="LEARNING_STANDARD_blackboard.data.qti.asi.AsiObject;_42617161_1">                </div>  </div>  
+  </div>
+
+ <div id="_109871434_1previewModule" class="moduleSample">
+ </div>
+</li>
+
+
+
+
+<li id="contentListItem:_109871435_1"	class="clearfix read">
+
+
+<div class="item clearfix contentListRightOffset" ID="_109871435_1">
+
+ <h3>
+  <span class="reorder editmode hideme"><span><img src="/images/ci/icons/generic_updown.gif" alt="" /></span></span>
+
+
+
+     Question 20
+ </h3>
+   
+ </div>
+
+<div class="contentListRight">
+  <p class="taskbuttondiv">4 out of 4 points</p>
+</div>
+
+
+<div class="details" >
+    
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+<tr>
+  <td class="bLight" nowrap valign="middle" >
+ <a class="hidden" href='#' onclick='return false;' id="question_20"/>&nbsp;</a>
+</td>
+<td class="bLight" align="RIGHT" colspan="5" nowrap valign="middle" > </td>
+</tr>
+<tr>
+<td class="reviewTestSubCellForIconBig" valign="top" align="center" rowspan="2"><img id="gs_q20" src="/images/ci/icons/grade-correct_u.gif" alt="Correct" title="Correct"></td>
+<td colspan=2 valign="top" width="100%"><div class="vtbegenerated inlineVtbegenerated">The poison control center will be able to provide you with the most information regarding the appropriate treatment for a patient with a drug overdose if the center:</div>
+</td>
+</tr>
+<tr>
+<td colspan=2 valign="top">
+<table cellpadding=5 cellspacing=0>
+  <tr>
+        <td valign="top">
+          <span class="label">Selected Answer:</span>
+        </td>
+        <td valign="top">
+          <div class=reviewQuestionsAnswerDiv>
+            <span class="spacerImageHolder"></span><span class="answerNumLabelSpan">B.</span>
+            <span class=answerTextSpan>
+              
+<div class="vtbegenerated inlineVtbegenerated">is aware of the substance that is involved.</div>
+</span>
+          </div>
+        </td>
+      </tr>
+  <tr>
+          <td valign="top">
+      <span class="label">Answers:</span>
+      </td>
+          
+      <td valign="top">
+            <div class=reviewQuestionsAnswerDiv>
+              <span class="spacerImageHolder"></span><span class="answerNumLabelSpan">A.</span>
+              <span class=answerTextSpan>
+                
+<div class="vtbegenerated inlineVtbegenerated"><label for="mc-ans-_109871435_1_0">knows the location of the closest hospital.</label></div>
+</span>
+            </div>
+          </td>
+            
+        </tr>
+        </td>
+          
+      <tr>
+          <td></td>
+      <td valign="top">
+            <div class=reviewQuestionsAnswerDiv>
+              <span class="spacerImageHolder"></span><span class="answerNumLabelSpan">B.</span>
+              <span class=answerTextSpan>
+                
+<div class="vtbegenerated inlineVtbegenerated"><label for="mc-ans-_109871435_1_1">is aware of the substance that is involved.</label></div>
+</span>
+            </div>
+          </td>
+            
+        </tr>
+        </td>
+          
+      <tr>
+          <td></td>
+      <td valign="top">
+            <div class=reviewQuestionsAnswerDiv>
+              <span class="spacerImageHolder"></span><span class="answerNumLabelSpan">C.</span>
+              <span class=answerTextSpan>
+                
+<div class="vtbegenerated inlineVtbegenerated"><label for="mc-ans-_109871435_1_2">knows why the patient overdosed on the drug.</label></div>
+</span>
+            </div>
+          </td>
+            
+        </tr>
+        </td>
+          
+      <tr>
+          <td></td>
+      <td valign="top">
+            <div class=reviewQuestionsAnswerDiv>
+              <span class="spacerImageHolder"></span><span class="answerNumLabelSpan">D.</span>
+              <span class=answerTextSpan>
+                
+<div class="vtbegenerated inlineVtbegenerated"><label for="mc-ans-_109871435_1_3">is aware of the patient's age and gender.</label></div>
+</span>
+            </div>
+          </td>
+            
+        </tr>
+        </table>
+
+
+
+</td>
+</tr>
+</table> <div class="alignPanel">        <div id="LEARNING_STANDARD_blackboard.data.qti.asi.AsiObject;_42617074_1">                </div>  </div>  
+  </div>
+
+ <div id="_109871435_1previewModule" class="moduleSample">
+ </div>
+</li>
+
+
+
+
+<li id="contentListItem:_109871436_1"	class="clearfix read">
+
+
+<div class="item clearfix contentListRightOffset" ID="_109871436_1">
+
+ <h3>
+  <span class="reorder editmode hideme"><span><img src="/images/ci/icons/generic_updown.gif" alt="" /></span></span>
+
+
+
+     Question 21
+ </h3>
+   
+ </div>
+
+<div class="contentListRight">
+  <p class="taskbuttondiv">4 out of 4 points</p>
+</div>
+
+
+<div class="details" >
+    
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+<tr>
+  <td class="bLight" nowrap valign="middle" >
+ <a class="hidden" href='#' onclick='return false;' id="question_21"/>&nbsp;</a>
+</td>
+<td class="bLight" align="RIGHT" colspan="5" nowrap valign="middle" > </td>
+</tr>
+<tr>
+<td class="reviewTestSubCellForIconBig" valign="top" align="center" rowspan="2"><img id="gs_q21" src="/images/ci/icons/grade-correct_u.gif" alt="Correct" title="Correct"></td>
+<td colspan=2 valign="top" width="100%"><div class="vtbegenerated inlineVtbegenerated">Airborne substances are diluted with:</div>
+</td>
+</tr>
+<tr>
+<td colspan=2 valign="top">
+<table cellpadding=5 cellspacing=0>
+  <tr>
+        <td valign="top">
+          <span class="label">Selected Answer:</span>
+        </td>
+        <td valign="top">
+          <div class=reviewQuestionsAnswerDiv>
+            <span class="spacerImageHolder"></span><span class="answerNumLabelSpan">B.</span>
+            <span class=answerTextSpan>
+              
+<div class="vtbegenerated inlineVtbegenerated">oxygen.</div>
+</span>
+          </div>
+        </td>
+      </tr>
+  <tr>
+          <td valign="top">
+      <span class="label">Answers:</span>
+      </td>
+          
+      <td valign="top">
+            <div class=reviewQuestionsAnswerDiv>
+              <span class="spacerImageHolder"></span><span class="answerNumLabelSpan">A.</span>
+              <span class=answerTextSpan>
+                
+<div class="vtbegenerated inlineVtbegenerated"><label for="mc-ans-_109871436_1_0">an alkaline antidote.</label></div>
+</span>
+            </div>
+          </td>
+            
+        </tr>
+        </td>
+          
+      <tr>
+          <td></td>
+      <td valign="top">
+            <div class=reviewQuestionsAnswerDiv>
+              <span class="spacerImageHolder"></span><span class="answerNumLabelSpan">B.</span>
+              <span class=answerTextSpan>
+                
+<div class="vtbegenerated inlineVtbegenerated"><label for="mc-ans-_109871436_1_1">oxygen.</label></div>
+</span>
+            </div>
+          </td>
+            
+        </tr>
+        </td>
+          
+      <tr>
+          <td></td>
+      <td valign="top">
+            <div class=reviewQuestionsAnswerDiv>
+              <span class="spacerImageHolder"></span><span class="answerNumLabelSpan">C.</span>
+              <span class=answerTextSpan>
+                
+<div class="vtbegenerated inlineVtbegenerated"><label for="mc-ans-_109871436_1_2">activated charcoal.</label></div>
+</span>
+            </div>
+          </td>
+            
+        </tr>
+        </td>
+          
+      <tr>
+          <td></td>
+      <td valign="top">
+            <div class=reviewQuestionsAnswerDiv>
+              <span class="spacerImageHolder"></span><span class="answerNumLabelSpan">D.</span>
+              <span class=answerTextSpan>
+                
+<div class="vtbegenerated inlineVtbegenerated"><label for="mc-ans-_109871436_1_3">syrup of ipecac.</label></div>
+</span>
+            </div>
+          </td>
+            
+        </tr>
+        </table>
+
+
+
+</td>
+</tr>
+</table> <div class="alignPanel">        <div id="LEARNING_STANDARD_blackboard.data.qti.asi.AsiObject;_42617086_1">                </div>  </div>  
+  </div>
+
+ <div id="_109871436_1previewModule" class="moduleSample">
+ </div>
+</li>
+
+
+
+
+<li id="contentListItem:_109871437_1"	class="clearfix read">
+
+
+<div class="item clearfix contentListRightOffset" ID="_109871437_1">
+
+ <h3>
+  <span class="reorder editmode hideme"><span><img src="/images/ci/icons/generic_updown.gif" alt="" /></span></span>
+
+
+
+     Question 22
+ </h3>
+   
+ </div>
+
+<div class="contentListRight">
+  <p class="taskbuttondiv">4 out of 4 points</p>
+</div>
+
+
+<div class="details" >
+    
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+<tr>
+  <td class="bLight" nowrap valign="middle" >
+ <a class="hidden" href='#' onclick='return false;' id="question_22"/>&nbsp;</a>
+</td>
+<td class="bLight" align="RIGHT" colspan="5" nowrap valign="middle" > </td>
+</tr>
+<tr>
+<td class="reviewTestSubCellForIconBig" valign="top" align="center" rowspan="2"><img id="gs_q22" src="/images/ci/icons/grade-correct_u.gif" alt="Correct" title="Correct"></td>
+<td colspan=2 valign="top" width="100%"><div class="vtbegenerated inlineVtbegenerated">Substance abuse is MOST accurately defined as:</div>
+</td>
+</tr>
+<tr>
+<td colspan=2 valign="top">
+<table cellpadding=5 cellspacing=0>
+  <tr>
+        <td valign="top">
+          <span class="label">Selected Answer:</span>
+        </td>
+        <td valign="top">
+          <div class=reviewQuestionsAnswerDiv>
+            <span class="spacerImageHolder"></span><span class="answerNumLabelSpan">A.</span>
+            <span class=answerTextSpan>
+              
+<div class="vtbegenerated inlineVtbegenerated">knowingly misusing a substance to produce a desired effect.</div>
+</span>
+          </div>
+        </td>
+      </tr>
+  <tr>
+          <td valign="top">
+      <span class="label">Answers:</span>
+      </td>
+          
+      <td valign="top">
+            <div class=reviewQuestionsAnswerDiv>
+              <span class="spacerImageHolder"></span><span class="answerNumLabelSpan">A.</span>
+              <span class=answerTextSpan>
+                
+<div class="vtbegenerated inlineVtbegenerated"><label for="mc-ans-_109871437_1_0">knowingly misusing a substance to produce a desired effect.</label></div>
+</span>
+            </div>
+          </td>
+            
+        </tr>
+        </td>
+          
+      <tr>
+          <td></td>
+      <td valign="top">
+            <div class=reviewQuestionsAnswerDiv>
+              <span class="spacerImageHolder"></span><span class="answerNumLabelSpan">B.</span>
+              <span class=answerTextSpan>
+                
+<div class="vtbegenerated inlineVtbegenerated"><label for="mc-ans-_109871437_1_1">unwillingly and unknowingly consuming drugs or alcohol.</label></div>
+</span>
+            </div>
+          </td>
+            
+        </tr>
+        </td>
+          
+      <tr>
+          <td></td>
+      <td valign="top">
+            <div class=reviewQuestionsAnswerDiv>
+              <span class="spacerImageHolder"></span><span class="answerNumLabelSpan">C.</span>
+              <span class=answerTextSpan>
+                
+<div class="vtbegenerated inlineVtbegenerated"><label for="mc-ans-_109871437_1_2">knowingly selling illicit drugs in order to buy more drugs.</label></div>
+</span>
+            </div>
+          </td>
+            
+        </tr>
+        </td>
+          
+      <tr>
+          <td></td>
+      <td valign="top">
+            <div class=reviewQuestionsAnswerDiv>
+              <span class="spacerImageHolder"></span><span class="answerNumLabelSpan">D.</span>
+              <span class=answerTextSpan>
+                
+<div class="vtbegenerated inlineVtbegenerated"><label for="mc-ans-_109871437_1_3">willfully using a therapeutic drug to treat a medical illness.</label></div>
+</span>
+            </div>
+          </td>
+            
+        </tr>
+        </table>
+
+
+
+</td>
+</tr>
+</table> <div class="alignPanel">        <div id="LEARNING_STANDARD_blackboard.data.qti.asi.AsiObject;_42617065_1">                </div>  </div>  
+  </div>
+
+ <div id="_109871437_1previewModule" class="moduleSample">
+ </div>
+</li>
+
+
+
+
+<li id="contentListItem:_109871438_1"	class="clearfix read">
+
+
+<div class="item clearfix contentListRightOffset" ID="_109871438_1">
+
+ <h3>
+  <span class="reorder editmode hideme"><span><img src="/images/ci/icons/generic_updown.gif" alt="" /></span></span>
+
+
+
+     Question 23
+ </h3>
+   
+ </div>
+
+<div class="contentListRight">
+  <p class="taskbuttondiv">4 out of 4 points</p>
+</div>
+
+
+<div class="details" >
+    
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+<tr>
+  <td class="bLight" nowrap valign="middle" >
+ <a class="hidden" href='#' onclick='return false;' id="question_23"/>&nbsp;</a>
+</td>
+<td class="bLight" align="RIGHT" colspan="5" nowrap valign="middle" > </td>
+</tr>
+<tr>
+<td class="reviewTestSubCellForIconBig" valign="top" align="center" rowspan="2"><img id="gs_q23" src="/images/ci/icons/grade-correct_u.gif" alt="Correct" title="Correct"></td>
+<td colspan=2 valign="top" width="100%"><div class="vtbegenerated inlineVtbegenerated">____________ is what you can see of a person's response to the environment.</div>
+</td>
+</tr>
+<tr>
+<td colspan=2 valign="top">
+<table cellpadding=5 cellspacing=0>
+  <tr>
+        <td valign="top">
+          <span class="label">Selected Answer:</span>
+        </td>
+        <td valign="top">
+          <div class=reviewQuestionsAnswerDiv>
+            <span class="spacerImageHolder"></span><span class="answerNumLabelSpan">C.</span>
+            <span class=answerTextSpan>
+              
+<div class="vtbegenerated inlineVtbegenerated">Behavior</div>
+</span>
+          </div>
+        </td>
+      </tr>
+  <tr>
+          <td valign="top">
+      <span class="label">Answers:</span>
+      </td>
+          
+      <td valign="top">
+            <div class=reviewQuestionsAnswerDiv>
+              <span class="spacerImageHolder"></span><span class="answerNumLabelSpan">A.</span>
+              <span class=answerTextSpan>
+                
+<div class="vtbegenerated inlineVtbegenerated"><label for="mc-ans-_109871438_1_0">Neurosis</label></div>
+</span>
+            </div>
+          </td>
+            
+        </tr>
+        </td>
+          
+      <tr>
+          <td></td>
+      <td valign="top">
+            <div class=reviewQuestionsAnswerDiv>
+              <span class="spacerImageHolder"></span><span class="answerNumLabelSpan">B.</span>
+              <span class=answerTextSpan>
+                
+<div class="vtbegenerated inlineVtbegenerated"><label for="mc-ans-_109871438_1_1">Affect</label></div>
+</span>
+            </div>
+          </td>
+            
+        </tr>
+        </td>
+          
+      <tr>
+          <td></td>
+      <td valign="top">
+            <div class=reviewQuestionsAnswerDiv>
+              <span class="spacerImageHolder"></span><span class="answerNumLabelSpan">C.</span>
+              <span class=answerTextSpan>
+                
+<div class="vtbegenerated inlineVtbegenerated"><label for="mc-ans-_109871438_1_2">Behavior</label></div>
+</span>
+            </div>
+          </td>
+            
+        </tr>
+        </td>
+          
+      <tr>
+          <td></td>
+      <td valign="top">
+            <div class=reviewQuestionsAnswerDiv>
+              <span class="spacerImageHolder"></span><span class="answerNumLabelSpan">D.</span>
+              <span class=answerTextSpan>
+                
+<div class="vtbegenerated inlineVtbegenerated"><label for="mc-ans-_109871438_1_3">Psychosis</label></div>
+</span>
+            </div>
+          </td>
+            
+        </tr>
+        </table>
+
+
+
+</td>
+</tr>
+</table> <div class="alignPanel">        <div id="LEARNING_STANDARD_blackboard.data.qti.asi.AsiObject;_42619573_1">                </div>  </div>  
+  </div>
+
+ <div id="_109871438_1previewModule" class="moduleSample">
+ </div>
+</li>
+
+
+
+
+<li id="contentListItem:_109871439_1"	class="clearfix read">
+
+
+<div class="item clearfix contentListRightOffset" ID="_109871439_1">
+
+ <h3>
+  <span class="reorder editmode hideme"><span><img src="/images/ci/icons/generic_updown.gif" alt="" /></span></span>
+
+
+
+     Question 24
+ </h3>
+   
+ </div>
+
+<div class="contentListRight">
+  <p class="taskbuttondiv">4 out of 4 points</p>
+</div>
+
+
+<div class="details" >
+    
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+<tr>
+  <td class="bLight" nowrap valign="middle" >
+ <a class="hidden" href='#' onclick='return false;' id="question_24"/>&nbsp;</a>
+</td>
+<td class="bLight" align="RIGHT" colspan="5" nowrap valign="middle" > </td>
+</tr>
+<tr>
+<td class="reviewTestSubCellForIconBig" valign="top" align="center" rowspan="2"><img id="gs_q24" src="/images/ci/icons/grade-correct_u.gif" alt="Correct" title="Correct"></td>
+<td colspan=2 valign="top" width="100%"><div class="vtbegenerated inlineVtbegenerated">You are dispatched to a residence for a 40-year-old female who complains of lower abdominal pain, fever and chills, and a foul-smelling vaginal discharge. Which of the following additional assessment findings would increase your index of suspicion for PID?</div>
+</td>
+</tr>
+<tr>
+<td colspan=2 valign="top">
+<table cellpadding=5 cellspacing=0>
+  <tr>
+        <td valign="top">
+          <span class="label">Selected Answer:</span>
+        </td>
+        <td valign="top">
+          <div class=reviewQuestionsAnswerDiv>
+            <span class="spacerImageHolder"></span><span class="answerNumLabelSpan">B.</span>
+            <span class=answerTextSpan>
+              
+<div class="vtbegenerated inlineVtbegenerated">a shuffling gait when walking</div>
+</span>
+          </div>
+        </td>
+      </tr>
+  <tr>
+          <td valign="top">
+      <span class="label">Answers:</span>
+      </td>
+          
+      <td valign="top">
+            <div class=reviewQuestionsAnswerDiv>
+              <span class="spacerImageHolder"></span><span class="answerNumLabelSpan">A.</span>
+              <span class=answerTextSpan>
+                
+<div class="vtbegenerated inlineVtbegenerated"><label for="mc-ans-_109871439_1_0">a history of ectopic pregnancy</label></div>
+</span>
+            </div>
+          </td>
+            
+        </tr>
+        </td>
+          
+      <tr>
+          <td></td>
+      <td valign="top">
+            <div class=reviewQuestionsAnswerDiv>
+              <span class="spacerImageHolder"></span><span class="answerNumLabelSpan">B.</span>
+              <span class=answerTextSpan>
+                
+<div class="vtbegenerated inlineVtbegenerated"><label for="mc-ans-_109871439_1_1">a shuffling gait when walking</label></div>
+</span>
+            </div>
+          </td>
+            
+        </tr>
+        </td>
+          
+      <tr>
+          <td></td>
+      <td valign="top">
+            <div class=reviewQuestionsAnswerDiv>
+              <span class="spacerImageHolder"></span><span class="answerNumLabelSpan">C.</span>
+              <span class=answerTextSpan>
+                
+<div class="vtbegenerated inlineVtbegenerated"><label for="mc-ans-_109871439_1_2">vaginal passage of blood clots</label></div>
+</span>
+            </div>
+          </td>
+            
+        </tr>
+        </td>
+          
+      <tr>
+          <td></td>
+      <td valign="top">
+            <div class=reviewQuestionsAnswerDiv>
+              <span class="spacerImageHolder"></span><span class="answerNumLabelSpan">D.</span>
+              <span class=answerTextSpan>
+                
+<div class="vtbegenerated inlineVtbegenerated"><label for="mc-ans-_109871439_1_3">bright red blood in the urine</label></div>
+</span>
+            </div>
+          </td>
+            
+        </tr>
+        </table>
+
+
+
+</td>
+</tr>
+</table> <div class="alignPanel">        <div id="LEARNING_STANDARD_blackboard.data.qti.asi.AsiObject;_42617167_1">                </div>  </div>  
+  </div>
+
+ <div id="_109871439_1previewModule" class="moduleSample">
+ </div>
+</li>
+
+
+
+
+<li id="contentListItem:_109871440_1"	class="clearfix read">
+
+
+<div class="item clearfix contentListRightOffset" ID="_109871440_1">
+
+ <h3>
+  <span class="reorder editmode hideme"><span><img src="/images/ci/icons/generic_updown.gif" alt="" /></span></span>
+
+
+
+     Question 25
+ </h3>
+   
+ </div>
+
+<div class="contentListRight">
+  <p class="taskbuttondiv">4 out of 4 points</p>
+</div>
+
+
+<div class="details" >
+    
+<table width="100%" cellpadding="2" cellspacing="0" border="0">
+<tr>
+  <td class="bLight" nowrap valign="middle" >
+ <a class="hidden" href='#' onclick='return false;' id="question_25"/>&nbsp;</a>
+</td>
+<td class="bLight" align="RIGHT" colspan="5" nowrap valign="middle" > </td>
+</tr>
+<tr>
+<td class="reviewTestSubCellForIconBig" valign="top" align="center" rowspan="2"><img id="gs_q25" src="/images/ci/icons/grade-correct_u.gif" alt="Correct" title="Correct"></td>
+<td colspan=2 valign="top" width="100%"><div class="vtbegenerated inlineVtbegenerated">Which of the following questions would be of LEAST pertinence during the initial questioning of a patient who ingested a substance?</div>
+</td>
+</tr>
+<tr>
+<td colspan=2 valign="top">
+<table cellpadding=5 cellspacing=0>
+  <tr>
+        <td valign="top">
+          <span class="label">Selected Answer:</span>
+        </td>
+        <td valign="top">
+          <div class=reviewQuestionsAnswerDiv>
+            <span class="spacerImageHolder"></span><span class="answerNumLabelSpan">B.</span>
+            <span class=answerTextSpan>
+              
+<div class="vtbegenerated inlineVtbegenerated">Why was the substance ingested?</div>
+</span>
+          </div>
+        </td>
+      </tr>
+  <tr>
+          <td valign="top">
+      <span class="label">Answers:</span>
+      </td>
+          
+      <td valign="top">
+            <div class=reviewQuestionsAnswerDiv>
+              <span class="spacerImageHolder"></span><span class="answerNumLabelSpan">A.</span>
+              <span class=answerTextSpan>
+                
+<div class="vtbegenerated inlineVtbegenerated"><label for="mc-ans-_109871440_1_0">What type of substance was taken?</label></div>
+</span>
+            </div>
+          </td>
+            
+        </tr>
+        </td>
+          
+      <tr>
+          <td></td>
+      <td valign="top">
+            <div class=reviewQuestionsAnswerDiv>
+              <span class="spacerImageHolder"></span><span class="answerNumLabelSpan">B.</span>
+              <span class=answerTextSpan>
+                
+<div class="vtbegenerated inlineVtbegenerated"><label for="mc-ans-_109871440_1_1">Why was the substance ingested?</label></div>
+</span>
+            </div>
+          </td>
+            
+        </tr>
+        </td>
+          
+      <tr>
+          <td></td>
+      <td valign="top">
+            <div class=reviewQuestionsAnswerDiv>
+              <span class="spacerImageHolder"></span><span class="answerNumLabelSpan">C.</span>
+              <span class=answerTextSpan>
+                
+<div class="vtbegenerated inlineVtbegenerated"><label for="mc-ans-_109871440_1_2">How much of the substance was taken?</label></div>
+</span>
+            </div>
+          </td>
+            
+        </tr>
+        </td>
+          
+      <tr>
+          <td></td>
+      <td valign="top">
+            <div class=reviewQuestionsAnswerDiv>
+              <span class="spacerImageHolder"></span><span class="answerNumLabelSpan">D.</span>
+              <span class=answerTextSpan>
+                
+<div class="vtbegenerated inlineVtbegenerated"><label for="mc-ans-_109871440_1_3">How long ago was it taken?</label></div>
+</span>
+            </div>
+          </td>
+            
+        </tr>
+        </table>
+
+
+
+</td>
+</tr>
+</table> <div class="alignPanel">        <div id="LEARNING_STANDARD_blackboard.data.qti.asi.AsiObject;_42617072_1">                </div>  </div>  
+  </div>
+
+ <div id="_109871440_1previewModule" class="moduleSample">
+ </div>
+</li>
+
+</ul>
+
+
+
+
+<!-- Begin bottom list action bar. -->
+<!-- End bottom list action bar. -->
+
+
+<!-- begin edit paging (bottom) -->
+  <!-- end edit paging (bottom) -->
+
+
+</div><p><span class="receiptDate">Tuesday, November 27, 2018 5:46:41 PM MST</span></p>
+
+
+<p class="backLink">
+
+  <a href="javascript:launch('/webapps/gradebook/do/student/viewAttempts?course_id=_141908_1&method=list&nolaunch_after_review=true');"
+                  >
+    OK
+  </a>
+
+</p>
+
+   </div>
+   
+     </div>
+   </div> 
+   </div>
+   </div>  
+</div></div>
+
+
+
+
+  <script type="text/javascript">page.bundle.addKey('inlineconfirmation.close','Close');page.bundle.addKey('inlineconfirmation.refresh','Refresh');page.bundle.addKey('hidden.link.close.menu','End of menu. Click to return to associated item.');page.bundle.addKey('hidden.link.close.form','End of form. Click to return to associated item.');page.bundle.addKey('lightbox.loading','Loading...');page.bundle.addKey('yt.stopped','Stopped:');page.bundle.addKey('yt.playing','Playing:');page.bundle.addKey('yt.cued','Cued:');page.bundle.addKey('yt.buffering','Buffering:');page.bundle.addKey('yt.paused','Paused:');page.bundle.addKey('yt.ended','Ended:');page.bundle.addKey('yt.play','Play');page.bundle.addKey('yt.pause','Pause');page.bundle.addKey('yt.mute','Mute');page.bundle.addKey('yt.unmute','Unmute');page.bundle.addKey('lightbox.overlay','{0} has been opened as a lightbox overlaying the current page.');page.bundle.addKey('display.playerControls','Player Controls');page.bundle.addKey('display.videoPlayerControls','Video Player Controls');page.bundle.addKey('display.play','Play');page.bundle.addKey('display.stop','Stop');page.bundle.addKey('display.volumeUp','Volume Up');page.bundle.addKey('display.volumeDown','Volume Down');page.bundle.addKey('display.mute','Mute');page.bundle.addKey('display.videoStatus','Video Status');page.bundle.addKey('display.closePlayerControls','Close Player Controls');page.bundle.addKey('display.embeddedVideoPlayer','Embedded Video Player');page.bundle.addKey('display.of','of');page.bundle.addKey('display.view.on.flickr','View Photo on Flickr');page.bundle.addKey('mashups.content.data.msg','We are unable to display the mashup content. This happens if the system detects an invalid URL. Remove the mashup item and try again to resolve this issue.');page.bundle.addKey('contextmenu.frame.title','Menu frame');page.bundle.addKey('frameset.contentframe.title','Content');page.bundle.addKey('common.pair.paren','{0} ({1})');page.bundle.addKey('coursemenu.show','Show Course Menu');page.bundle.addKey('coursemenu.hide','Hide Course Menu');page.bundle.addKey('dynamictree.expand','Expand');page.bundle.addKey('dynamictree.collapse','Collapse');page.bundle.addKey('dynamictree.expand.folder','Expand {0} tree folder');page.bundle.addKey('dynamictree.collapse.folder','Collapse {0} tree folder');page.bundle.addKey('dragdrop.accessible.error.chooseOption','Select an item first.');page.bundle.addKey('dragdrop.accessible.empty','No items available to reposition.');page.bundle.addKey('dragdrop.accessible.complete','Items have been reordered.');page.bundle.addKey('dragdrop.accessible.complete.nochange','No ordering changes made.');page.bundle.addKey('closeStr','Close');page.bundle.addKey('moreOptionsStr','Click to see options');page.bundle.addKey('hiddenStr','This link is hidden from students');page.bundle.addKey('emptyStr','This link has no content');page.bundle.addKey('entryPointChangeConfirmStr','The entry point will changed to the next available Content');page.bundle.addKey('subheaderColonStr','Subheader: {0}');page.bundle.addKey('confirmQuickEnrollStr','You will be given the role: {0}. Proceed?');page.bundle.addKey('enterSearchKeyStr','Enter Search Criteria.');page.bundle.addKey('courseWelcomePageLbTitle','Quick Setup Guide');page.bundle.addKey('expandCollapse.expand.section.nocolon','Expand');page.bundle.addKey('expandCollapse.collapse.section.nocolon','Collapse');page.bundle.addKey('expandCollapse.expand.section.param','Expand {0}');page.bundle.addKey('expandCollapse.collapse.section.param','Collapse {0}');page.bundle.addKey('tool.activity.description','activity updates');page.bundle.addKey('accessDeniedMsg','Access Denied');page.bundle.addKey('breadcrumbs.expand','Click to expand the breadcrumbs');</script>
+  <script type="text/javascript">
+      Event.observe(window, 'load', function() {
+        displayMathImgInline( document.getElementById('content_listContainer').getElementsByTagName('img') );
+      });
+    </script>
+  
+  <script type="text/javascript">
+    <!--
+    function launch( urlString )
+    {
+        // If the test was opened in a new window, close the window when the OK button is clicked on this review page.      
+        if ( window.name == "_blank" )
+        {
+            window.close();
+        }
+
+        // else direct the user to the parent of this page      
+        document.location = urlString + "&outcome_id=_15956828_1&outcome_definition_id=_1866868_1&takeTestContentId=_7242250_1";  
+    }
+    -->
+</script>
+
+  <script type="text/javascript">
+   var course_id = "_141908_1";
+   var courseTitle = "EMS-1053-152_FAL_2018";
+   var confirmDeleteMenuItemMsg = "Are you sure you want to delete this item?";
+   var confirmQuickUnenrollMsg = "Any user data created while quick enrolled in this course will be deleted. Proceed?";
+   var confirmQuickEnrollMsg = "You will be given the role: Instructor. Proceed?";
+   var inNewWindow = false;
+   var theCourseMenu;
+ </script>
+ 
+  <script type='text/javascript'>globalNavigation.init(); Event.observe(window, 'resize', globalNavigation.onResize);</script>
+  <script type="text/javascript">
+    page.bundle.addKey('globalnav.menu.expand','Expand\x20Global\x20Nav');
+    page.bundle.addKey('globalnav.menu.collapse','Collapse\x20Global\x20Nav');
+  </script>
+  
+  <script type="text/javascript">
+    page.bundle.addKey('quick_links.link.title','Navigate\x20to\x20element\x20\x7B1\x7D\x20of\x20type\x20\x7B2\x7D\x20in\x20\x7B0\x7D\x20frame');
+    page.bundle.addKey('quick_links.lightbox_title','Quick\x20Links');
+    page.bundle.addKey('quick_links.link_title','Open\x20Quick\x20Links');
+    page.bundle.addKey('quick_links.hotkey.shift','Shift');
+    page.bundle.addKey('quick_links.hotkey.control','Ctrl');
+    page.bundle.addKey('quick_links.hotkey.alt','Alt');
+    page.bundle.addKey('quick_links.hotkey.combination_divider','\x2B');
+  </script>
+  
+  <script type="text/javascript">quickLinks.initialize( [ '' ] );</script>
+  <script type="text/javascript">
+  		            globalNavMenu.init( true );
+  		          </script>
+  		        
+  <script type='text/javascript'> social.Profile.MY_PROFILE_TOOL_ID='BB-CORE_____myProfile'; social.Profile.MY_PROFILE_TOOL_URI='/webapps/bb-social-learning-BBLEARN/execute/mybb?cmd=display&toolId=BB-CORE_____myProfile&location='; </script>
+ 
+   <script type="text/javascript">
+   FastInit.addOnLoad( function()
+   {
+            if ( window.DWREngine )
+       {
+        try {DWREngine.beginBatch();} catch(ignore) {}
+       } 
+                page.decoratePageBanner();
+                                                             new genericList.CheckboxRadioController("content_listContainer");
+                                                             page.ContextMenu.hideMenuDiv('a66e3a4c808047f3a742ae2a3b47ca39');
+                                                             new page.PageHelpToggler(true, 'Help is On: Click to hide page help.', 'Help is Off: Click to show page help.', false );
+                                                             breadcrumbs.rightMostNavItem = 'null';
+                                                             breadcrumbs.rightMostParentURL = '/webapps/blackboard/content/listContent.jsp?course_id=_141908_1&content_id=_7242202_1&mode=reset';
+                                                             new page.PageMenuToggler(true,'courseMenuToggle_141908_1', true);
+                                                             courseMenu.nonceKey = 'blackboard.platform.security.NonceUtil.nonce.ajax';
+                                                             courseMenu.nonceValue = '4699919a-f9b5-47de-acfa-20db68459914';
+                                                             new page.PaletteController('courseMenuPalette', 'courseMenu_link', false, false);
+                                                             theCourseMenu = new courseMenu.CourseMenu('/webapps/blackboard/execute/doCourseMenuAction', '/webapps/blackboard/execute/getCourseMenuContextMenu');
+                                                             welcomeOverlay.initOverlay();
+                                                             tool_service.init ('300000', 'Suppress-Session-Timestamp-Update' );
+                                                             if (typeof(initEditors) == 'function') { initEditors(); }; 
+                                                             if (window['org'] && window['org']['owasp']) { org.owasp.esapi.ESAPI.initialize(); }; 
+                                                             quickLinks.createHelper();
+                                                                  if ( window.DWREngine )
+       {
+         try {DWREngine.endBatch();} catch(ignore) {}
+       }
+                          BrowserSpecific.registerListeners();
+               });
+   </script>
+       
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"errorBeacon":"bam.nr-data.net","licenseKey":"e99ceaa32b","agent":"","beacon":"bam.nr-data.net","applicationTime":140,"applicationID":"9877737","transactionName":"YlUEYhdYCkUAWhdfX1sfNUIXTBBFIFoXX19bHwRaBFoPVA5YEVIeQlUEVxVJFxgRVhFCUVkeFUIXTBBFT20CVHdHXxNGJFoQXw5X","queueTime":0}</script>
+</body>
+</html>
